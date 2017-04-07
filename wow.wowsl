@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VisualLightBox>
+    <Gallery version="2.5">
+        <Settings>
+            <AppName>WOW Slider</AppName>
+            <AppUrlS>WOWSlider.com</AppUrlS>
+            <AppVersion>8.7</AppVersion>
+            <AutoPlay>true</AutoPlay>
+            <AutoPlayVideo>false</AutoPlayVideo>
+            <Captions>true</Captions>
+            <CaptionsEffect>parallax</CaptionsEffect>
+            <Controls>true</Controls>
+            <FontSize>14</FontSize>
+            <FullScreen>false</FullScreen>
+            <GalleryName>wow</GalleryName>
+            <GallerySuffix>1</GallerySuffix>
+            <HtmlCharset>UTF-8</HtmlCharset>
+            <ImageAspectRatio>true</ImageAspectRatio>
+            <ImageEffect>dribbles</ImageEffect>
+            <ImageFillColor>#000000</ImageFillColor>
+            <ImageHeight>360</ImageHeight>
+            <ImageQuality>90</ImageQuality>
+            <ImageShrink2>false</ImageShrink2>
+            <ImageStretch>true</ImageStretch>
+            <ImageTemplate>C:/Program Files (x86)/WOW Slider/templates/backgnd/pulse/</ImageTemplate>
+            <ImageTemplateName>Pulse</ImageTemplateName>
+            <ImageWidth>640</ImageWidth>
+            <Images>true</Images>
+            <JoomlaType>2.5</JoomlaType>
+            <OneLoop>false</OneLoop>
+            <OrderRandom>false</OrderRandom>
+            <PlayPause>true</PlayPause>
+            <Preloader>false</Preloader>
+            <PublishFileName>H:/DOCUMENTOS/DAM/Segundo parcial/aplicaciones/app3/wowslider.html</PublishFileName>
+            <PublishIndex>wowslider.html</PublishIndex>
+            <PublishPath>H:/DOCUMENTOS/DAM/Segundo parcial/aplicaciones/app3</PublishPath>
+            <PublishPreview>true</PublishPreview>
+            <PublishType>file</PublishType>
+            <RelativePath>false</RelativePath>
+            <ShowBullets>1</ShowBullets>
+            <ShowControls>false</ShowControls>
+            <ShowTooltips>1</ShowTooltips>
+            <SizeStyle>1</SizeStyle>
+            <SlideshowDelay>20</SlideshowDelay>
+            <SlideshowDuration>20</SlideshowDuration>
+            <SoundEnable>0</SoundEnable>
+            <SoundFileName></SoundFileName>
+            <StopOnHover>false</StopOnHover>
+            <SwipeSupport>2</SwipeSupport>
+            <TemplateColor>#ffffff</TemplateColor>
+            <TemplateFont>Tahoma</TemplateFont>
+            <TemplateName>pulse</TemplateName>
+            <ThumbAlign>bottom</ThumbAlign>
+            <ThumbFormat>jpg</ThumbFormat>
+            <ThumbHeight>48</ThumbHeight>
+            <ThumbQuality>90</ThumbQuality>
+            <ThumbWidth>0</ThumbWidth>
+            <Thumbnails>false</Thumbnails>
+            <TooltipPos>bottom</TooltipPos>
+            <noFrame>0</noFrame>
+        </Settings>
+        <Images RelativePath="false">
+            <Image>
+                <url>H:/DOCUMENTOS/DAM/Segundo parcial/aplicaciones/app3/imagenes/1portada.JPG</url>
+                <title>1portada</title>
+                <filesize>2356069</filesize>
+            </Image>
+            <Image>
+                <url>H:/DOCUMENTOS/DAM/Segundo parcial/aplicaciones/app3/imagenes/2portada.JPG</url>
+                <title>2portada</title>
+                <filesize>1348681</filesize>
+            </Image>
+            <Image>
+                <url>H:/DOCUMENTOS/DAM/Segundo parcial/aplicaciones/app3/imagenes/3portada.JPG</url>
+                <title>3portada</title>
+                <filesize>2191973</filesize>
+            </Image>
+            <Image>
+                <url>H:/DOCUMENTOS/DAM/Segundo parcial/aplicaciones/app3/imagenes/4portada.JPG</url>
+                <title>4portada</title>
+                <filesize>2380034</filesize>
+            </Image>
+            <Image>
+                <url>H:/DOCUMENTOS/DAM/Segundo parcial/aplicaciones/app3/imagenes/5portada.JPG</url>
+                <title>5portada</title>
+                <filesize>2639368</filesize>
+            </Image>
+            <Image>
+                <url>H:/DOCUMENTOS/DAM/Segundo parcial/aplicaciones/app3/imagenes/6portada.JPG</url>
+                <title>6portada</title>
+                <filesize>2142485</filesize>
+            </Image>
+            <Image>
+                <url>H:/DOCUMENTOS/DAM/Segundo parcial/aplicaciones/app3/imagenes/7portada.JPG</url>
+                <title>7portada</title>
+                <filesize>2279798</filesize>
+            </Image>
+            <Image>
+                <url>H:/DOCUMENTOS/DAM/Segundo parcial/aplicaciones/app3/imagenes/8portada.JPG</url>
+                <title>8portada</title>
+                <filesize>1630879</filesize>
+            </Image>
+            <Image>
+                <url>H:/DOCUMENTOS/DAM/Segundo parcial/aplicaciones/app3/imagenes/9portada.JPG</url>
+                <title>9portada</title>
+                <filesize>1310962</filesize>
+            </Image>
+            <Image>
+                <url>H:/DOCUMENTOS/DAM/Segundo parcial/aplicaciones/app3/imagenes/10portada.JPG</url>
+                <title>10portada</title>
+                <filesize>2241828</filesize>
+            </Image>
+            <Image>
+                <url>H:/DOCUMENTOS/DAM/Segundo parcial/aplicaciones/app3/imagenes/11portada.JPG</url>
+                <title>11portada</title>
+                <filesize>1932079</filesize>
+            </Image>
+            <Image>
+                <url>H:/DOCUMENTOS/DAM/Segundo parcial/aplicaciones/app3/imagenes/1contraportada.JPG</url>
+                <title>1contraportada</title>
+                <filesize>1591948</filesize>
+            </Image>
+            <Image>
+                <url>H:/DOCUMENTOS/DAM/Segundo parcial/aplicaciones/app3/imagenes/2contraportada.JPG</url>
+                <title>2contraportada</title>
+                <filesize>1548549</filesize>
+            </Image>
+            <Image>
+                <url>H:/DOCUMENTOS/DAM/Segundo parcial/aplicaciones/app3/imagenes/3contraportada.JPG</url>
+                <title>3contraportada</title>
+                <filesize>2324023</filesize>
+            </Image>
+            <Image>
+                <url>H:/DOCUMENTOS/DAM/Segundo parcial/aplicaciones/app3/imagenes/4contraportada.JPG</url>
+                <title>4contraportada</title>
+                <filesize>2279837</filesize>
+            </Image>
+            <Image>
+                <url>H:/DOCUMENTOS/DAM/Segundo parcial/aplicaciones/app3/imagenes/5contraportada.JPG</url>
+                <title>5contraportada</title>
+                <filesize>2076221</filesize>
+            </Image>
+            <Image>
+                <url>H:/DOCUMENTOS/DAM/Segundo parcial/aplicaciones/app3/imagenes/6contraportada.JPG</url>
+                <title>6contraportada</title>
+                <filesize>2354043</filesize>
+            </Image>
+            <Image>
+                <url>H:/DOCUMENTOS/DAM/Segundo parcial/aplicaciones/app3/imagenes/7contraportada.JPG</url>
+                <title>7contraportada</title>
+                <filesize>2424335</filesize>
+            </Image>
+            <Image>
+                <url>H:/DOCUMENTOS/DAM/Segundo parcial/aplicaciones/app3/imagenes/8contraportada.JPG</url>
+                <title>8contraportada</title>
+                <filesize>2237820</filesize>
+            </Image>
+            <Image>
+                <url>H:/DOCUMENTOS/DAM/Segundo parcial/aplicaciones/app3/imagenes/9contraportada.JPG</url>
+                <title>9contraportada</title>
+                <filesize>2041888</filesize>
+            </Image>
+            <Image>
+                <url>H:/DOCUMENTOS/DAM/Segundo parcial/aplicaciones/app3/imagenes/10contraportada.JPG</url>
+                <title>10contraportada</title>
+                <filesize>2283175</filesize>
+            </Image>
+            <Image>
+                <url>H:/DOCUMENTOS/DAM/Segundo parcial/aplicaciones/app3/imagenes/11contraportada.JPG</url>
+                <title>11contraportada</title>
+                <filesize>2093471</filesize>
+            </Image>
+        </Images>
+    </Gallery>
+</VisualLightBox>

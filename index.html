@@ -1,0 +1,2026 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Tercera Aplicacion Movil</title>
+
+<!--grupo CSS-->
+<link rel="stylesheet" href="css/temasapp2.min.css"/>
+<link rel="stylesheet" href="css/jquery.mobile.icons-1.4.5.min.css"/>
+<link rel="stylesheet" href="css/jquery.mobile.structure-1.4.5.min.css"/>
+<style type="text/css">
+.a {
+	font-family: Georgia, "Times New Roman", Times, serif;
+}
+#Pagina2 div div h2 {
+	font-family: Verdana, Geneva, sans-serif;
+}
+#Pagina3 div div h2 {
+	font-family: Verdana, Geneva, sans-serif;
+}
+#Pagina4 div div h2 {
+	font-family: Verdana, Geneva, sans-serif;
+}
+#Pagina5 div div h2 {
+	font-family: Verdana, Geneva, sans-serif;
+}
+</style>
+<!--grupo JavaScript-->
+<script src="js/jquery-1.11.2.min.js"></script>
+<script src="js/jquery.mobile-1.4.5.min.js"></script>
+<script src="js/acciones.js"></script>
+<script src="phonegap.js"></script>
+<!-- Start WOWSlider.com HEAD section -->
+<link rel="stylesheet" type="text/css" href="engine1/style.css" />
+<script type="text/javascript" src="engine1/jquery.js"></script>
+<!-- End WOWSlider.com HEAD section -->
+<script type="text/javascript">
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+</script>
+</head><body onLoad="MM_preloadImages('imagenes/AT&amp;T.png','imagenes/1contraportada.JPG','imagenes/2contraportada.JPG','imagenes/3contraportada.JPG','imagenes/4contraportada.JPG','imagenes/5contraportada.JPG','imagenes/6contraportada.JPG','imagenes/7contraportada.JPG','imagenes/8contraportada.JPG','imagenes/9contraportada.JPG','imagenes/10contraportada.JPG','imagenes/11contraportada.JPG')">
+<div data-role="page" id="principal" data-theme="b">
+  <div data-role="header" data-add-back-btn="true" data-back-btn-text="regresar"  data-back-btn-theme="b">
+   <h1>BIBLIOGRAFIA DEL LABORATORIO3</h1>
+   </div>
+    <div data-role="main" class="ui-content">
+     <div data-role="collapsible" data-content-theme="false">
+        <div>
+        </div>
+        <div>
+        </div>
+      </div>
+   </div>
+      <div>
+       <ul data-role="listview" data-theme="b" class="ui-listview ui-group-theme-b">
+       <li class="ui-first-child ui-last-child">
+           <a href="#Pagina1" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+             <h2>1.Programacion en Java</h2>
+       <p>Autor: C.Thomas Wu</p>
+     </a>
+  </li>
+  <li class="ui-first-child ui-last-child">
+   <a href="#Pagina2" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+   <h2>2.Estructura de datos</h2>
+   <p> Autor: Osvaldo Cairó Silvia Guardati</p>
+   </a>
+ </li>
+<li class="ui-first-child ui-last-child">
+    <a href="#Pagina3" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+    <h2>3.ASP.NET.4.0</h2>
+    <p>Autor: George Shepherd</p>
+    </a>
+</li>
+  <li class="ui-first-child ui-last-child">
+   <a href="#Pagina4" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+   <h2>4.Mantenimiento y reparacion de computadoras</h2>
+   <p> Autor: Desconocido</p>
+   </a>
+   </li>
+   <li class="ui-first-child ui-last-child">
+   <a href="#Pagina5" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+   <h2>5.Java como programar</h2>
+   <p> Autor: Desconocido</p>
+   </a>
+  </li>
+  <li class="ui-first-child ui-last-child">
+   <a href="#Pagina6" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+   <h2>6.Comunicaciones y redes de computadoras</h2>
+   <p> Autor: William Stallings</p>
+   </a>
+  </li>
+  <li class="ui-first-child ui-last-child">
+   <a href="#Pagina7" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+   <h2>7.VisualC#2010</h2>
+   <p> Autor: John Sharp</p>
+   </a>
+  </li>
+  <li class="ui-first-child ui-last-child">
+   <a href="#Pagina8" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+   <h2>8.Redes de computadoras</h2>
+   <p> Autor: Andrew S. Tanenbaum</p>
+   </a>
+  </li>
+  <li class="ui-first-child ui-last-child">
+   <a href="#Pagina9" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+   <h2>9.Programacion avanzada con:Microsoft: SQL SERVER 2005</h2>
+   <p>Autor: Andrew J.Brust StephenForte</p>
+   </a>
+  </li>
+  <li class="ui-first-child ui-last-child">
+   <a href="#Pagina10" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+   <h2>10.Fundamentos de redes</h2>
+   <p> Autor: Bruce A. Hallberg</p>
+   </a>
+  </li>
+  <li class="ui-first-child ui-last-child">
+   <a href="#Pagina11" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+   <h2>11.Sitema operativo</h2>
+   <p> Autor: Jesús Carrete Pérez</p>
+   </a>
+  </li>
+  </ul>
+ <!-- Start WOWSlider.com BODY section -->
+<div id="wowslider-container1">
+<div class="ws_images"><ul>
+		<li><img src="data1/images/1portada.jpg" alt="1portada" title="1portada" id="wows1_0"/></li>
+		<li><img src="data1/images/2portada.jpg" alt="2portada" title="2portada" id="wows1_1"/></li>
+		<li><img src="data1/images/3portada.jpg" alt="3portada" title="3portada" id="wows1_2"/></li>
+		<li><img src="data1/images/4portada.jpg" alt="4portada" title="4portada" id="wows1_3"/></li>
+		<li><img src="data1/images/5portada.jpg" alt="5portada" title="5portada" id="wows1_4"/></li>
+		<li><img src="data1/images/6portada.jpg" alt="6portada" title="6portada" id="wows1_5"/></li>
+		<li><img src="data1/images/7portada.jpg" alt="7portada" title="7portada" id="wows1_6"/></li>
+		<li><img src="data1/images/8portada.jpg" alt="8portada" title="8portada" id="wows1_7"/></li>
+		<li><img src="data1/images/9portada.jpg" alt="9portada" title="9portada" id="wows1_8"/></li>
+		<li><img src="data1/images/10portada.jpg" alt="10portada" title="10portada" id="wows1_9"/></li>
+		<li><img src="data1/images/11portada.jpg" alt="11portada" title="11portada" id="wows1_10"/></li>
+		<li><img src="data1/images/1contraportada.jpg" alt="1contraportada" title="1contraportada" id="wows1_11"/></li>
+		<li><img src="data1/images/2contraportada.jpg" alt="2contraportada" title="2contraportada" id="wows1_12"/></li>
+		<li><img src="data1/images/3contraportada.jpg" alt="3contraportada" title="3contraportada" id="wows1_13"/></li>
+		<li><img src="data1/images/4contraportada.jpg" alt="4contraportada" title="4contraportada" id="wows1_14"/></li>
+		<li><img src="data1/images/5contraportada.jpg" alt="5contraportada" title="5contraportada" id="wows1_15"/></li>
+		<li><img src="data1/images/6contraportada.jpg" alt="6contraportada" title="6contraportada" id="wows1_16"/></li>
+		<li><img src="data1/images/7contraportada.jpg" alt="7contraportada" title="7contraportada" id="wows1_17"/></li>
+		<li><img src="data1/images/8contraportada.jpg" alt="8contraportada" title="8contraportada" id="wows1_18"/></li>
+		<li><img src="data1/images/9contraportada.jpg" alt="9contraportada" title="9contraportada" id="wows1_19"/></li>
+		<li><a href="http://wowslider.com"><img src="data1/images/10contraportada.jpg" alt="wowslider" title="10contraportada" id="wows1_20"/></a></li>
+		<li><img src="data1/images/11contraportada.jpg" alt="11contraportada" title="11contraportada" id="wows1_21"/></li>
+	</ul></div>
+	<div class="ws_bullets"><div>
+		<a href="#" title="1portada"><span><img src="data1/tooltips/1portada.jpg" alt="1portada"/>1</span></a>
+		<a href="#" title="2portada"><span><img src="data1/tooltips/2portada.jpg" alt="2portada"/>2</span></a>
+		<a href="#" title="3portada"><span><img src="data1/tooltips/3portada.jpg" alt="3portada"/>3</span></a>
+		<a href="#" title="4portada"><span><img src="data1/tooltips/4portada.jpg" alt="4portada"/>4</span></a>
+		<a href="#" title="5portada"><span><img src="data1/tooltips/5portada.jpg" alt="5portada"/>5</span></a>
+		<a href="#" title="6portada"><span><img src="data1/tooltips/6portada.jpg" alt="6portada"/>6</span></a>
+		<a href="#" title="7portada"><span><img src="data1/tooltips/7portada.jpg" alt="7portada"/>7</span></a>
+		<a href="#" title="8portada"><span><img src="data1/tooltips/8portada.jpg" alt="8portada"/>8</span></a>
+		<a href="#" title="9portada"><span><img src="data1/tooltips/9portada.jpg" alt="9portada"/>9</span></a>
+		<a href="#" title="10portada"><span><img src="data1/tooltips/10portada.jpg" alt="10portada"/>10</span></a>
+		<a href="#" title="11portada"><span><img src="data1/tooltips/11portada.jpg" alt="11portada"/>11</span></a>
+		<a href="#" title="1contraportada"><span><img src="data1/tooltips/1contraportada.jpg" alt="1contraportada"/>12</span></a>
+		<a href="#" title="2contraportada"><span><img src="data1/tooltips/2contraportada.jpg" alt="2contraportada"/>13</span></a>
+		<a href="#" title="3contraportada"><span><img src="data1/tooltips/3contraportada.jpg" alt="3contraportada"/>14</span></a>
+		<a href="#" title="4contraportada"><span><img src="data1/tooltips/4contraportada.jpg" alt="4contraportada"/>15</span></a>
+		<a href="#" title="5contraportada"><span><img src="data1/tooltips/5contraportada.jpg" alt="5contraportada"/>16</span></a>
+		<a href="#" title="6contraportada"><span><img src="data1/tooltips/6contraportada.jpg" alt="6contraportada"/>17</span></a>
+		<a href="#" title="7contraportada"><span><img src="data1/tooltips/7contraportada.jpg" alt="7contraportada"/>18</span></a>
+		<a href="#" title="8contraportada"><span><img src="data1/tooltips/8contraportada.jpg" alt="8contraportada"/>19</span></a>
+		<a href="#" title="9contraportada"><span><img src="data1/tooltips/9contraportada.jpg" alt="9contraportada"/>20</span></a>
+		<a href="#" title="10contraportada"><span><img src="data1/tooltips/10contraportada.jpg" alt="10contraportada"/>21</span></a>
+		<a href="#" title="11contraportada"><span><img src="data1/tooltips/11contraportada.jpg" alt="11contraportada"/>22</span></a>
+	</div></div><div class="ws_script" style="position:absolute;left:-99%"><a href="http://wowslider.com/vi">css slider</a> by WOWSlider.com v8.7</div>
+<div class="ws_shadow"></div>
+</div>	
+<script type="text/javascript" src="engine1/wowslider.js"></script>
+<script type="text/javascript" src="engine1/script.js"></script>
+<!-- End WOWSlider.com BODY section -->
+  </div>
+<div data-role="footer" align="center" data-theme="b" data-position="fixed"> 
+  <div>
+    <img src="imagenes/logo.png" width="46" height="46">
+  </div>
+  <div>
+    <h4>Aplicacion Tres</h4>
+    <h4> Lizbeth Mendez Ahuatl </h4>
+   </div>
+  </div>
+</div>
+<div data-role="page" id="Pagina1" data-add-back-btn="true" data-theme="b">
+   <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+   <h1> 1.Programacion en Java </h1> 
+   </div>
+   <div data-role="content" align="center">
+     <div>
+       <h2 class="a"><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image01','','imagenes/1contraportada.JPG',1)"><img src="imagenes/1portada.JPG" width="200" height="200" id="Image01"></a></h2>
+       <h2 class="a"> Introducción</h2>
+       <div><strong>Repaso general de la sintaxis Java </strong></div>
+<div><strong>Diseño de una clase Java </strong></div>
+<div><strong>Diseño avanzado de una clase Java </strong></div>
+<div><strong>La herencia en las interfaces Java </strong></div>
+<div><strong>Genéricos y colecciones </strong></div>
+<div><strong>Manejo de Cadenas </strong></div>
+<div><strong>Excepciones y aserciones </strong></div>
+<div><strong>Principios básicos de E/S </strong></div>
+<div><strong>E/S de archivos Java </strong></div>
+<div><strong>Hilos </strong></div>
+<div><strong>JDBC </strong></div>
+<p><strong>Localización </strong></p>
+<div><strong>CONTENIDOS PRÁCTICOS: </strong></div>
+<div><strong>Describir las características fundamentales de la t</strong></div>
+<div><strong>ecnología Java. </strong></div>
+<div><strong>Identificar los grupos de productos que componen latecnología Java. </strong></div>
+<div><strong>Descargar e instalar el JDK (Java Development Kit).</strong></div>
+<div><strong>Descargar e instalar el IDE NetBeans. </strong></div>
+<div><strong>Crear una clase Java. </strong></div>
+<div><strong>Usar campos, constructores y métodos de una clase. </strong></div>
+<div><strong>Pasar valores de argumentos a los métodos. </strong></div>
+<div><strong>Usar sentencias condicionales y bucles. </strong></div>
+<div><strong>Utilizar las sentencias package e import. </strong></div>
+<div><strong>Crear subclases Java. </strong></div>
+<div><strong>Compilar archivos y ejecutar programas Java. </strong></div>
+<div><strong>Distinguir los distintos tipos de modificadores deacceso. </strong></div>
+<div><strong>Usar métodos sobrecargados y sobrescritos. </strong></div>
+<div><strong>Sobrescribir métodos heredados de una superclase definida. </strong></div>
+<div><strong>Sobrescribir métodos heredados de la clase Object. </strong></div>
+<div><strong>Usar el operador instanceof para comparar tipos de </strong></div>
+<div><strong>objetos. </strong></div>
+<div><strong>Realizar una conversión de tipo sobre un objeto. </strong></div>
+<div><strong>Crear clases y métodos abstractos. </strong></div>
+<div><strong>Utilizar las palabras reservadas static y final. </strong></div>
+<div><strong>Implementar el patrón de diseño Singleton. </strong></div>
+<div><strong>Distinguir entre clases anidadas y clases internas.</strong></div>
+<div><strong>Heredar clases e interfaces. </strong></div>
+<div><strong>Implementar métodos de una interfaz. </strong></div>
+<div><strong>Refactorizar código para implementar los patrones de diseño DAO y Factory. </strong></div>
+<div><strong>Crear una clase genérica personalizada. </strong></div>
+<div><strong>Usar el operador diamante para la creación de objetos.</strong></div
+             >
+<div><strong>Crear colecciones usando el viejo estilo y el nuevo</strong></div>
+<div><strong>Implementar las interfarces ArrayList, Set y HashMa</strong></div>
+<div><strong>Implementar una pila y una cola mediante la interfaz.</strong></div>
+<div><strong>Ordenar colecciones con las interfaces Comparable y </strong></div>
+<div><strong>Comparator. </strong></div>
+<div><strong>Leer datos desde la línea de comandos. </strong></div>
+<div><strong>Analizar cadenas de caracteres. </strong></div>
+<div><strong>Crear cadenas usando la clase StringBuilder. </strong></div>
+<div><strong>Buscar, analizar y remplazar cadenas usando expresi</strong></div>
+<div><strong>ones regulares. </strong></div>
+<div><strong>Definir excepciones. </strong></div>
+<div><strong>Usar las sentencias try y throw. </strong></div>
+<div><strong>Utilizar las clausulas catch, multi-catch y finally</strong></div>
+       <div data-role="collapsible" data-content-theme="false">
+         <h1>¿Quieres este libro...?</h1>
+             <div>
+               <p><a href="http://articulo.mercadolibre.com.mx/MLM-569413264-programacion-en-java-c-thomas-wu-_JM" target="_self">Compralo aqui</a></p>
+               <p><a href="http://thebookee.net/pr/programacion-en-java-thomas-wu" target="_self">Descargalo aqui</a></p>
+<br>
+             </div>
+             <div></div>
+       </div>
+     </div>
+  </div>
+   <div data-role="footer" data-theme="b" data-position="fixed">
+     <h4> Aplicacion Tres, LMA </h4>
+   </div>
+</div>
+
+<div data-role="page" id="Pagina2" data-add-back-btn="true" data-theme="b">
+   <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+   <h1> 2.Estructura de datos </h1> 
+   </div>
+   <div data-role="content" align="center">
+     <div>
+       <h2 class="a"><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image02','','imagenes/2contraportada.JPG',1)"><img src="imagenes/2portada.JPG" width="200" height="200" id="Image02"></a></h2>
+       <p><strong>Introducción 4<br>
+Mapa conceptual 6<br>
+Unidad 1. Arreglos 7<br>
+Mapa conceptual 8<br>
+Introducción 9<br>
+1.1. Conceptos 10<br>
+1.2. Arreglos unidimensionales 11<br>
+1.3. Arreglos bidimensionales 16<br>
+1.4. Arreglos de tres o más dimensiones 19<br>
+Autoevaluación 23<br>
+Unidad 2. Pilas y colas 24<br>
+Mapa conceptual 25<br>
+Introducción 26<br>
+2.1. Definiciones y representaciones 27<br>
+2.2. Notaciones infijas, prefijas, postfijas en expresiones  29<br>
+2.3. Inserción y remoción de datos en una pila (LIFO) 30<br>
+2.4. Inserción y remoción de datos en una cola simple y  circular 33<br>
+2.5 Problemas 37<br>
+Autoevaluación 42<br>
+Unidad 3. Algoritmos de ordenamiento y búsqueda 44<br>
+Mapa conceptual 45<br>
+Introducción 46<br>
+3.1. Método de burbuja 47<br>
+3.2. Método Shell 49<br>
+3.3. Método de quicksort 50<br>
+3.4. Búsqueda secuencial 51<br>
+3.5. Búsqueda binaria 52<br>
+Autoevaluación 55<br>
+3<br>
+Unidad 4. Listas 56<br>
+Mapa conceptual 57<br>
+Introducción 58<br>
+4.1. Representación en memoria 59<br>
+4.2. Listas enlazadas 59<br>
+4.3. Listas doblemente enlazadas 64<br>
+4.4. Operaciones con listas 66<br>
+4.5. Problemas 69<br>
+Autoevaluación 73<br>
+Unidad 5. Árboles 74<br>
+Mapa conceptual 75<br>
+Introducción 76<br>
+5.1. Terminología 77<br>
+5.2. Árboles binarios y representaciones gráficas 78<br>
+5.3. Recorrido de un árbol 81<br>
+5.4. Árboles enhebrados 83<br>
+5.5. Árboles de búsqueda 85<br>
+5.6. Problemas 86<br>
+Autoevaluación 107<br>
+Unidad 6. Grafos 109<br>
+Mapa conceptual 110<br>
+Introducción 111<br>
+6.1. Terminología 112<br>
+6.2. Características generales 113<br>
+6.3. Representación de un grafo 114<br>
+Autoevaluación 117<br>
+Bibliografía 118</strong></p>
+       <div data-role="collapsible" data-content-theme="false">
+         <h1>¿Quieres este libro...?</h1>
+         <div>
+           <p><a href="https://www.elsotano.com/libro-estructuras-de-datos-3-ed-10223850" target="_self">Compralo aqui</a></p>
+           <p><a href="http://www.freelibros.org/programacion/estructuras-de-datos-3ra-edicion-osvaldo-cairo-y-silvia-guardati.html" target="_self">Descargalo aqui</a></p>
+<br>
+         </div>
+         <div></div>
+       </div>
+     </div>
+  </div>
+   <div data-role="footer" data-theme="b" data-position="fixed">
+     <h4> Aplicacion Tres, LMA </h4>
+   </div>
+</div>
+
+<div data-role="page" id="Pagina3" data-add-back-btn="true" data-theme="b">
+   <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+   <h1> 3.ASP.NET.4.0 </h1> 
+   </div>
+   <div data-role="content" align="center">
+     <div>
+       <h2 class="a"><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image03','','imagenes/3contraportada.JPG',1)"><img src="imagenes/3portada.JPG" width="200" height="200" id="Image03"></a></h2>
+       <p><strong>Parte I Fundamentos<br>
+        1 Conceptos básicos de la aplicación Web. . . . . . . . . .  . . . . . . . . . . . . . . . . . . . . . . . . . . 3<br>
+        2 Fundamentos de la Aplicación ASP.NET. . . . . . . . . . .  . . . . . . . . . . . . . 25<br>
+        3 El modelo de renderizado de páginas. . . . . . . . . . . .  . . . . . . . . . . . . . . . . . . . 59<br>
+        4 Controles personalizados prestados. . . . . . . . . . . .  . . . . . . . . . . . . . . . . . . . 79<br>
+        5 Controles compuestos. . . . . . . . . . . . . . . . . . .  . . . . . . . . . . . . . . . . . . 101<br>
+        6 Potpourri de control. . . . . . . . . . . . . . . . . . .  . . . . . . . . . . . . . . . . . . . . 119<br>
+        Parte II Características avanzadas<br>
+        7 Un aspecto y una sensación consistentes. . . . . . . . . .  . . . . . . . . . . . . . . . . . . . . 143<br>
+        8 Configuración. . . . . . . . . . . . . . . . . . . . . . .  . . . . . . . . . . . . . . . . . . . 163<br>
+        9 Inicio de sesión. . . . . . . . . . . . . . . . . . . . .  . . . . . . . . . . . . . . . . . . . . . . . . 181<br>
+        10 Enlace de datos. . . . . . . . . . . . . . . . . . . . .  . . . . . . . . . . . . . . . . . . . . . . 207<br>
+        11 Navegación del sitio web. . . . . . . . . . . . . . . . .  . . . . . . . . . . . . . . . . . . . 237<br>
+        12 Personalización. . . . . . . . . . . . . . . . . . . . .  . . . . . . . . . . . . . . . . . . . . 257<br>
+        13 Piezas web. . . . . . . . . . . . . . . . . . . . . . . .  . . . . . . . . . . . . . . . . . . . . . 267<br>
+        Parte III Almacenamiento en caché y administración del  estado<br>
+        14 Estado de la sesión. . . . . . . . . . . . . . . . . . .  . . . . . . . . . . . . . . . . . . . . . . . . 291<br>
+        15 Caché de datos de la aplicación. . . . . . . . . . . . .  . . . . . . . . . . . . . . . . . . . 321<br>
+        16 Salida de almacenamiento en caché. . . . . . . . . . . .  . . . . . . . . . . . . . . . . . . . . . . . . . . . . 343<br>
+        Parte IV Diagnóstico y Plomería<br>
+        17 Diagnóstico y depuración. . . . . . . . . . . . . . . . .  . . . . . . . . . . . . . 363<br>
+        18 La clase HttpApplication y los módulos HTTP. . . . . . .  . . . . . . . 385<br>
+        19 Controladores HTTP. . . . . . . . . . . . . . . . . . . .  . . . . . . . . . . . . . . . . . . . . . 405<br>
+        Vi Resumen de los contenidos<br>
+        Parte V Datos dinámicos, XBAP, MVC, AJAX y Silverlight<br>
+        20 Datos dinámicos. . . . . . . . . . . . . . . . . . . . .  . . . . . . . . . . . . . . . . . . . . . 423<br>
+        21 Contenido de ASP.NET y WPF. . . . . . . . . . . . . . . .  . . . . . . . . . . . . . . . 433<br>
+        22 El  framework ASP.NET MVC. . . . . . . . . . . . . . . . . . . . . . . . . . . .  449<br>
+        23 AJAX. . . . . . . . . . . . . . . . . . . . . . . . . . .  . . . . . . . . . . . . . . . . . . . . . . 473<br>
+        24 Silverlight y ASP.NET. . . . . . . . . . . . . . . . . .  . . . . . . . . . . . . . . . . 513<br>
+        Parte VI Servicios e implementación<br>
+        25 Windows Communication Foundation. . . . . . . . . . . . .  . . . . . . . . 555<br>
+       26 Despliegue. . . . . . . . . . . . . . . . . . . . . . . .  . . . . . . . . . . . . . . . . . . . 575 </strong>  </p>
+    <div data-role="collapsible" data-content-theme="false">
+      <h1>¿Quieres este libro...?</h1>
+      <div>
+        <p><a href="https://mx.casadellibro.com/libro-aspnet-40/9788441528123/1798954" target="_self">Compralo aqui</a></p>
+        <p><a href="https://ptgmedia.pearsoncmg.com/images/9780735627017/samplepages/9780735627017.pdf" target="_self">Descargalo aqui</a></p>
+<br>
+      </div>
+      <div></div>
+  </div>
+     </div>
+  </div>
+   <div data-role="footer" data-theme="b" data-position="fixed">
+     <h4> Aplicacion Tres, LMA </h4>
+   </div>
+</div>
+
+<div data-role="page" id="Pagina4" data-add-back-btn="true" data-theme="b">
+   <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+   <h1> 4.Mantenimiento y reparación de computadoras </h1> 
+   </div>
+   <div data-role="content" align="center">
+     <div>
+       <h2><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image04','','imagenes/4contraportada.JPG',1)"><img src="imagenes/4portada.JPG" width="200" height="200" id="Image04"></a></h2>
+       <div><strong>Mantenimiento de </strong></div>
+       <div><strong>computadoras</strong></div>
+       <div><strong>...</strong></div>
+       <div><strong>4</strong></div>
+       <div><strong>Introducción</strong></div>
+       <div><strong>4</strong></div>
+       <div><strong>Mantenimiento Preventivo</strong></div>
+       <div><strong>.......</strong></div>
+       <div><strong>4</strong></div>
+       <div><strong>Mant</strong></div>
+       <div><strong>enimiento Correctivo:</strong></div>
+       <div><strong>.......</strong></div>
+       <div><strong>4</strong></div>
+       <div><strong>Dispositivos internos del gabinete o carcasa (CPU)</strong></div>
+       <div><strong>..</strong></div>
+       <div><strong>4</strong></div>
+       <div><strong>Tarjeta madre o principal</strong></div>
+       <div><strong>.........</strong></div>
+       <div><strong>5</strong></div>
+       <div><strong>Microprocesador</strong></div>
+       <div><strong>......................</strong></div>
+       <div><strong>6</strong></div>
+       <div><strong>Memoria RAM</strong></div>
+       <div><strong>.........................</strong></div>
+       <div><strong>7</strong></div>
+       <div><strong>Disco duro o rígido</strong></div>
+       <div><strong>..................</strong></div>
+       <div><strong>7</strong></div>
+       <div><strong>Tarjeta de Video</strong></div>
+       <div><strong>8</strong></div>
+       <div><strong>Tarjeta de Sonido</strong></div>
+       <div><strong>....................</strong></div>
+       <div><strong>9</strong></div>
+       <div><strong>Tarjeta de Red</strong></div>
+       <div><strong>.........................</strong></div>
+       <div><strong>9</strong></div>
+       <div><strong>Fax</strong></div>
+       <div><strong>-</strong></div>
+       <div><strong>Modem</strong></div>
+       <div><strong>...........................</strong></div>
+       <div><strong>10</strong></div>
+       <div><strong>Puertos de Conexión</strong></div>
+       <div><strong>.............</strong></div>
+       <div><strong>10</strong></div>
+       <div><strong>Fuente de Poder</strong></div>
+       <div><strong>....................</strong></div>
+       <div><strong>11</strong></div>
+       <div><strong>Pasos para el desarmado del Gabinete (CPU):</strong></div>
+       <div><strong>.......</strong></div>
+       <div><strong>11</strong></div>
+       <div><strong>Pasos para el armado del Gabinete (CPU):</strong></div>
+       <div><strong>.............</strong></div>
+       <div><strong>12</strong></div>
+       <div><strong>El BIOS</strong></div>
+       <div><strong>....</strong></div>
+       <div><strong>12</strong></div>
+       <div><strong>Instalación del Sistema Operativo Windows XP</strong></div>
+       <div><strong>......</strong></div>
+       <div><strong>14</strong></div>
+       <div><strong>Herramientas de diagnostico</strong></div>
+       <div><strong>...</strong></div>
+       <div><strong>24</strong></div>
+       <div><strong>Desfragmentador de disco</strong></div>
+       <div><strong>....</strong></div>
+       <div><strong>24</strong></div>
+       <div><strong>Liberador de espacio en disco</strong></div>
+       <div><strong>25</strong></div>
+       <div><strong>Introducción a redes</strong></div>
+       <div><strong>.....................</strong></div>
+       <div><strong>27</strong></div>
+       <div><strong>¿Qué es una red?</strong></div>
+       <div><strong>....................</strong></div>
+       <div><strong>27</strong></div>
+       <div><strong>Componentes principales de una red</strong></div>
+       <div><strong>......................</strong></div>
+       <div><strong>27</strong></div>
+       <div><strong>Manual de Mantenimiento de PCs e Introducción a Redes</strong></div>
+       <div><strong>3</strong></div>
+       <div><strong>Estaciones de trabajo</strong></div>
+       <div><strong>............</strong></div>
+       <div><strong>28</strong></div>
+       <div><strong>Servid</strong></div>
+       <div><strong>ores</strong></div>
+       <div><strong>.............................</strong></div>
+       <div><strong>28</strong></div>
+       <div><strong>Medios de Transmisión</strong></div>
+       <div><strong>.........</strong></div>
+       <div><strong>29</strong></div>
+       <div><strong>Dispositivos de conexión</strong></div>
+       <div><strong>.......</strong></div>
+       <div><strong>29</strong></div>
+       <div><strong>Cobe</strong></div>
+       <div><strong>rtura de una red</strong></div>
+       <div><strong>...............</strong></div>
+       <div><strong>31</strong></div>
+       <div><strong>Redes de área local (LAN)</strong></div>
+       <div><strong>....</strong></div>
+       <div><strong>31</strong></div>
+       <div><strong>Redes de área extensa (WAN)</strong></div>
+       <div><strong>..............................</strong></div>
+       <div><strong>31</strong></div>
+       <div><strong>Topologías de una red</strong></div>
+       <div><strong>.............</strong></div>
+       <div><strong>32</strong></div>
+       <div><strong>Topología en bus o lineal</strong></div>
+       <div><strong>......</strong></div>
+       <div><strong>32</strong></div>
+       <div><strong>Topología en anillo</strong></div>
+       <div><strong>................</strong></div>
+       <div><strong>32</strong></div>
+       <div><strong>Topología en estrella</strong></div>
+       <div><strong>.............</strong></div>
+       <div><strong>33</strong></div>
+       <div><strong>Elaboración de un cable UTP para red</strong></div>
+       <div><strong>....................</strong></div>
+       <div><strong>33</strong></div>
+       <div><strong>Equipo y material necesario:</strong></div>
+       <div><strong>33</strong></div>
+       <div><strong>Normas de cableado</strong></div>
+       <div><strong>.............</strong></div>
+       <div><strong>34</strong></div>
+       <div><strong>Tipos de cables que se pueden elaborar</strong></div>
+       <div><strong>..............</strong></div>
+       <div><strong>34</strong></div>
+       <div><strong>Pasos generales para elaborar un cable UTP para red</strong></div>
+       <div><strong>........................</strong></div>
+       <div><strong>35</strong></div>
+       <div><strong>Creación de un grupo de trabajo</strong></div>
+       <div><strong>..............................</strong></div>
+       <div><strong>37</strong></div>
+       <div><strong>Requisitos para formar un grupo de trabajo</strong></div>
+       <div><strong>..........</strong></div>
+       <div><strong>38</strong></div>
+       <div><strong>Pasos para crear un grupo de trabajo</strong></div>
+       <div><strong>...................</strong></div>
+       <div><strong>38</strong></div>
+       <div><strong>Compartir recursos</strong></div>
+       <div><strong>..................</strong></div>
+       <div><strong>42</strong></div>
+       <div><strong>Compartir archivos y carpetas</strong></div>
+       <div><strong>...............................</strong></div>
+       <div><strong>42</strong></div>
+       <p>&nbsp;</p>
+       <div data-role="collapsible" data-content-theme="false">
+         <h1>¿Quieres este libro...?</h1>
+         <div>
+           <p><a href="http://articulo.mercadolibre.com.mx/MLM-552398943-libro-mantenimiento-y-reparacion-de-computadoras-_JM" target="_self">Compralo aqui</a></p>
+           <p><a href="http://www.aragonemprendedor.com/blog/wp-content/uploads/2012/07/mantenimiento-win7.pdf" target="_self">Descargalo aqui</a></p>
+<br>
+         </div>
+         <div></div>
+       </div>
+     </div>
+  </div>
+   <div data-role="footer" data-theme="b" data-position="fixed">
+     <h4> Aplicacion Tres, LMA </h4>
+   </div>
+</div>
+
+<div data-role="page" id="Pagina5" data-add-back-btn="true" data-theme="b">
+   <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+   <h1> 5.Java como programar </h1> 
+   </div>
+   <div data-role="content" align="center">
+     <div>
+<h2 class="a"><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image05','','imagenes/5contraportada.JPG',1)"><img src="imagenes/5portada.JPG" width="200" height="200" id="Image05"></a></h2>
+<p><strong>Introducción a las computadoras, Internet y Web 1</strong></p>
+<p><strong>1.1 Introducción 2</strong></p>
+<p><strong>1.2 ¿Qué es una computadora? 4</strong></p>
+<p><strong>1.3 Organización de una computadora 4</strong></p>
+<p><strong>1.4 Los primeros sistemas operativos 5</strong></p>
+<p><strong>1.5 Computación personal, distribuida y cliente/servidor 5</strong></p>
+<p><strong>1.6 Internet y World Wide Web 6</strong></p>
+<p><strong>1.7 Lenguajes máquina, ensambladores y de alto nivel 6</strong></p>
+<p><strong>1.8 Historia de C y C++ 7</strong></p>
+<p><strong>1.9 Historia de Java 8</strong></p>
+<p><strong>1.10 Bibliotecas de clases de Java 8</strong></p>
+<p><strong>1.11 FORTRAN, COBOL, Pascal y Ada 9</strong></p>
+<p><strong>1.12 BASIC, Visual Basic, Visual C++, C# y .NET 10</strong></p>
+<p><strong>1.13 Entorno de desarrollo típico en Java 10</strong></p>
+<p><strong>1.14 Generalidades acerca de Java y este libro 13</strong></p>
+<p><strong>1.15 Prueba de una aplicación en Java 14</strong></p>
+<p><strong>1.16 Ejemplo práctico de Ingeniería de Software: introducción a la tecnología de objetos y UML 19</strong></p>
+<p><strong>1.17 Web 2.0 23</strong></p>
+<p><strong>1.18 Tecnologías de software 24</strong></p>
+<p><strong>1.19 Conclusión 25</strong></p>
+<p><strong>1.20 Recursos Web 25</strong></p>
+<p><strong>2 Introducción a las aplicaciones en Java 34</strong></p>
+<p><strong>2.1 Introducción 35</strong></p>
+<p><strong>2.2 Su primer programa en Java: imprimir una línea de texto 35</strong></p>
+<p><strong>2.3 Modifi cación de nuestro primer programa en Java 41</strong></p>
+<p><strong>2.4 Cómo mostrar texto con printf 43</strong></p>
+<p><strong>2.5 Otra aplicación en Java: suma de enteros 44</strong></p>
+<p><strong>2.6 Conceptos acerca de la memoria 48</strong></p>
+<p><strong>2.7 Aritmética 49</strong></p>
+<p><strong>2.8 Toma de decisiones: operadores de igualdad y relacionales 52</strong></p>
+<p><strong>2.9 (Opcional) Ejemplo práctico de Ingeniería de Software: cómo examinar el documento</strong></p>
+<p><strong>de requerimientos de un problema 56</strong></p>
+<p><strong>2.10 Conclusión 65</strong></p>
+<p><strong>3 Introducción a las clases y los objetos 75</strong></p>
+<p><strong>3.1 Introducción 76</strong></p>
+<p><strong>3.2 Clases, objetos, métodos y variables de instancia 76</strong></p>
+<p><strong>00_MAQ_PRELIMINARES.indd vii 4/30/08 12:24:31 AM</strong></p>
+<p><strong>viii Contenido</strong></p>
+<p><strong>3.3 Declaración de una clase con un método e instanciamiento de un objeto de una clase 77</strong></p>
+<p><strong>3.4 Declaración de un método con un parámetro 81</strong></p>
+<p><strong>3.5 Variables de instancia, métodos establecer y métodos obtener 84</strong></p>
+<p><strong>3.6 Comparación entre tipos primitivos y tipos por referencia 88</strong></p>
+<p><strong>3.7 Inicialización de objetos mediante constructores 89</strong></p>
+<p><strong>3.8 Números de punto fl otante y el tipo double 91</strong></p>
+<p><strong>3.9 (Opcional) Ejemplo práctico de GUI y gráfi cos: uso de cuadros de diálogo 95</strong></p>
+<p><strong>3.10 (Opcional) Ejemplo práctico de Ingeniería de Software: identifi cación de las clases en un</strong></p>
+<p><strong>documento de requerimientos 98</strong></p>
+<p><strong>3.11 Conclusión 105</strong></p>
+<p><strong>4 Instrucciones de control: parte 1 112</strong></p>
+<p><strong>4.1 Introducción 113</strong></p>
+<p><strong>4.2 Algoritmos 113</strong></p>
+<p><strong>4.3 Seudocódigo 114</strong></p>
+<p><strong>4.4 Estructuras de control 114</strong></p>
+<p><strong>4.5 Instrucción de selección simple if 116</strong></p>
+<p><strong>4.6 Instrucción de selección doble if...else 117</strong></p>
+<p><strong>4.7 Instrucción de repetición while 121</strong></p>
+<p><strong>4.8 Cómo formular algoritmos: repetición controlada por un contador 123</strong></p>
+<p><strong>4.9 Cómo formular algoritmos: repetición controlada por un centinela 127</strong></p>
+<p><strong>4.10 Cómo formular algoritmos: instrucciones de control anidadas 134</strong></p>
+<p><strong>4.11 Operadores de asignación compuestos 138</strong></p>
+<p><strong>4.12 Operadores de incremento y decremento 139</strong></p>
+<p><strong>4.13 Tipos primitivos 142</strong></p>
+<p><strong>4.14 (Opcional) Ejemplo práctico de GUI y gráfi cos: creación de dibujos simples 142</strong></p>
+<p><strong>4.15 (Opcional) Ejemplo práctico de Ingeniería de Software: identifi cación de los atributos de las clases 146</strong></p>
+<p><strong>4.16 Conclusión 150</strong></p>
+<p><strong>5 Instrucciones de control: parte 2 164</strong></p>
+<p><strong>5.1 Introducción 165</strong></p>
+<p><strong>5.2 Fundamentos de la repetición controlada por contador 165</strong></p>
+<p><strong>5.3 Instrucción de repetición for 167</strong></p>
+<p><strong>5.4 Ejemplos sobre el uso de la instrucción for 171</strong></p>
+<p><strong>5.5 Instrucción de repetición do...while 174</strong></p>
+<p><strong>5.6 Instrucción de selección múltiple switch 176</strong></p>
+<p><strong>5.7 Instrucciones break y continue 183</strong></p>
+<p><strong>5.8 Operadores lógicos 185</strong></p>
+<p><strong>5.9 Resumen sobre programación estructurada 190</strong></p>
+<p><strong>5.10 (Opcional) Ejemplo práctico de GUI y gráfi cos: dibujo de rectángulos y óvalos 194</strong></p>
+<p><strong>5.11 (Opcional) Ejemplo práctico de Ingeniería de Software: cómo identifi car los estados</strong></p>
+<p><strong>y actividades de los objetos 197</strong></p>
+<p><strong>5.12 Conclusión 200</strong></p>
+<p><strong>6 Métodos: un análisis más detallado 211</strong></p>
+<p><strong>6.1 Introducción 212</strong></p>
+<p><strong>6.2 Módulos de programas en Java 212</strong></p>
+<p><strong>6.3 Métodos static, campos static y la clase Math 214</strong></p>
+<p><strong>6.4 Declaración de métodos con múltiples parámetros 216</strong></p>
+<p><strong>6.5 Notas acerca de cómo declarar y utilizar los métodos 219</strong></p>
+<p><strong>6.6 Pila de llamadas a los métodos y registros de activación 221</strong></p>
+<p><strong>6.7 Promoción y conversión de argumentos 221</strong></p>
+<p><strong>00_MAQ_PRELIMINARES.indd viii 4/30/08 12:24:32 AM</strong></p>
+<p><strong>Contenido ix</strong></p>
+<p><strong>6.8 Paquetes de la API de Java 222</strong></p>
+<p><strong>6.9 Ejemplo práctico: generación de números aleatorios 224</strong></p>
+<p><strong>6.9.1 Escalamiento y desplazamiento generalizados de números aleatorios 227</strong></p>
+<p><strong>6.9.2 Repetitividad de números aleatorios para prueba y depuración 228</strong></p>
+<p><strong>6.10 Ejemplo práctico: un juego de probabilidad (introducción a las enumeraciones) 228</strong></p>
+<p><strong>6.11 Alcance de las declaraciones 232</strong></p>
+<p><strong>6.12 Sobrecarga de métodos 235</strong></p>
+<p><strong>6.13 (Opcional) Ejemplo práctico de GUI y gráfi cos: colores y fi guras rellenas 238</strong></p>
+<p><strong>6.14 (Opcional) Ejemplo práctico de Ingeniería de Software: identifi cación de las operaciones</strong></p>
+<p><strong>de las clases 241</strong></p>
+<p><strong>6.15 Conclusión 246</strong></p>
+<p><strong>7 Arreglos 260</strong></p>
+<p><strong>7.1 Introducción 261</strong></p>
+<p><strong>7.2 Arreglos 261</strong></p>
+<p><strong>7.3 Declaración y creación de arreglos 262</strong></p>
+<p><strong>7.4 Ejemplos acerca del uso de los arreglos 264</strong></p>
+<p><strong>7.5 Ejemplo práctico: simulación para barajar y repartir cartas 272</strong></p>
+<p><strong>7.6 Instrucción for mejorada 274</strong></p>
+<p><strong>7.7 Paso de arreglos a los métodos 276</strong></p>
+<p><strong>7.8 Ejemplo práctico: la clase LibroCalificaciones que usa un arreglo para</strong></p>
+<p><strong>almacenar las califi caciones 279</strong></p>
+<p><strong>7.9 Arreglos multidimensionales 284</strong></p>
+<p><strong>7.10 Ejemplo práctico: la clase LibroCalificaciones que usa un arreglo bidimensional 288</strong></p>
+<p><strong>7.11 Listas de argumentos de longitud variable 293</strong></p>
+<p><strong>7.12 Uso de argumentos de línea de comandos 294</strong></p>
+<p><strong>7.13 (Opcional) Ejemplo práctico de GUI y gráfi cos: cómo dibujar arcos 296</strong></p>
+<p><strong>7.14 (Opcional) Ejemplo práctico de Ingeniería de Software: colaboración entre los objetos 299</strong></p>
+<p><strong>7.15 Conclusión 305</strong></p>
+<p><strong>8 Clases y objetos: un análisis más detallado 325</strong></p>
+<p><strong>8.1 Introducción 326</strong></p>
+<p><strong>8.2 Ejemplo práctico de la clase Tiempo 327</strong></p>
+<p><strong>8.3 Control del acceso a los miembros 330</strong></p>
+<p><strong>8.4 Referencias a los miembros del objeto actual mediante this 331</strong></p>
+<p><strong>8.5 Ejemplo práctico de la clase Tiempo: constructores sobrecargados 333</strong></p>
+<p><strong>8.6 Constructores predeterminados y sin argumentos 338</strong></p>
+<p><strong>8.7 Observaciones acerca de los métodos Establecer y Obtener 338</strong></p>
+<p><strong>8.8 Composición 340</strong></p>
+<p><strong>8.9 Enumeraciones 342</strong></p>
+<p><strong>8.10 Recolección de basura y el método finalize 345</strong></p>
+<p><strong>8.11 Miembros de clase static 345</strong></p>
+<p><strong>8.12 Declaración static import 350</strong></p>
+<p><strong>8.13 Variables de instancia final 351</strong></p>
+<p><strong>8.14 Reutilización de software 353</strong></p>
+<p><strong>8.15 Abstracción de datos y encapsulamiento 354</strong></p>
+<p><strong>8.16 Ejemplo práctico de la clase Tiempo: creación de paquetes 355</strong></p>
+<p><strong>8.17 Acceso a paquetes 360</strong></p>
+<p><strong>8.18 (Opcional) Ejemplo práctico de GUI y gráfi cos: uso de objetos con gráfi cos 361</strong></p>
+<p><strong>8.19 (Opcional) Ejemplo práctico de Ingeniería de Software: inicio de la programación de las clases</strong></p>
+<p><strong>del sistema ATM 364</strong></p>
+<p><strong>8.20 Conclusión 369</strong></p>
+<p><strong>00_MAQ_PRELIMINARES.indd ix 4/30/08 12:24:32 AM</strong></p>
+<p><strong>x Contenido</strong></p>
+<p><strong>9 Programación orientada a objetos: herencia 378</strong></p>
+<p><strong>9.1 Introducción 379</strong></p>
+<p><strong>9.2 Superclases y subclases 380</strong></p>
+<p><strong>9.3 Miembros protected 382</strong></p>
+<p><strong>9.4 Relación entre las superclases y las subclases 382</strong></p>
+<p><strong>9.4.1 Creación y uso de una clase EmpleadoPorComision 383</strong></p>
+<p><strong>9.4.2 Creación de una clase EmpleadoBaseMasComision sin usar la herencia 387</strong></p>
+<p><strong>9.4.3 Creación de una jerarquía de herencia EmpleadoPorComision-<br>
+  EmpleadoBaseMasComision 391</strong></p>
+<p><strong>9.4.4 La jerarquía de herencia EmpleadoPorComision-EmpleadoBaseMasComision</strong></p>
+<p><strong>mediante el uso de variables de instancia protected 394</strong></p>
+<p><strong>9.4.5 La jerarquía de herencia EmpleadoPorComision-EmpleadoBaseMasComision</strong></p>
+<p><strong>mediante el uso de variables de instancia private 399</strong></p>
+<p><strong>9.5 Los constructores en las subclases 404</strong></p>
+<p><strong>9.6 Ingeniería de software mediante la herencia 409</strong></p>
+<p><strong>9.7 La clase object 410</strong></p>
+<p><strong>9.8 (Opcional) Ejemplo práctico de GUI y gráfi cos: mostar texto e imágenes usando etiquetas 411</strong></p>
+<p><strong>9.9 Conclusión 413</strong></p>
+<p><strong>10 Programación orientada a objetos: polimorfi smo 417</strong></p>
+<p><strong>10.1 Introducción 418</strong></p>
+<p><strong>10.2 Ejemplos del polimorfi smo 419</strong></p>
+<p><strong>10.3 Demostración del comportamiento polimórfi co 420</strong></p>
+<p><strong>10.4 Clases y métodos abstractos 423</strong></p>
+<p><strong>10.5 Ejemplo práctico: sistema de nómina utilizando polimorfi smo 425</strong></p>
+<p><strong>10.5.1 Creación de la superclase abstracta Empleado 426</strong></p>
+<p><strong>10.5.2 Creación de la subclase concreta EmpleadoAsalariado 426</strong></p>
+<p><strong>10.5.3 Creación de la subclase concreta EmpleadoPorHoras 429</strong></p>
+<p><strong>10.5.4 Creación de la subclase concreta EmpleadoPorComision 431</strong></p>
+<p><strong>10.5.5 Creación de la subclase concreta indirecta EmpleadoBaseMasComision 432</strong></p>
+<p><strong>10.5.6 Demostración del procesamiento polimórfi co, el operador instanceof y</strong></p>
+<p><strong>la conversión descendente 433</strong></p>
+<p><strong>10.5.7 Resumen de las asignaciones permitidas entre variables de la superclase y de la subclase 437</strong></p>
+<p><strong>10.6 Métodos y clases final 438</strong></p>
+<p><strong>10.7 Ejemplo práctico: creación y uso de interfaces 439</strong></p>
+<p><strong>10.7.1 Desarrollo de una jerarquía PorPagar 440</strong></p>
+<p><strong>10.7.2 Declaración de la interfaz PorPagar 441</strong></p>
+<p><strong>10.7.3 Creación de la clase Factura 441</strong></p>
+<p><strong>10.7.4 Modifi cación de la clase Empleado para implementar la interfaz PorPagar 443</strong></p>
+<p><strong>10.7.5 Modifi cación de la clase EmpleadoAsalariado para usarla en la jerarquía PorPagar 445</strong></p>
+<p><strong>10.7.6 Uso de la interfaz PorPagar para procesar objetos Factura y Empleado</strong></p>
+<p><strong>mediante el polimorfi smo 446</strong></p>
+<p><strong>10.7.7 Declaración de constantes con interfaces 448</strong></p>
+<p><strong>10.7.8 Interfaces comunes de la API de Java 448</strong></p>
+<p><strong>10.8 (Opcional) Ejemplo práctico de GUI y gráfi cos: realizar dibujos mediante el polimorfi smo 449</strong></p>
+<p><strong>10.9 (Opcional) Ejemplo práctico de Ingeniería de Software: incorporación de la herencia en</strong></p>
+<p><strong>el sistema ATM 451</strong></p>
+<p><strong>10.10 Conclusión 457</strong></p>
+<p><strong>00_MAQ_PRELIMINARES.indd x 4/30/08 12:24:33 AM</strong></p>
+<p><strong>Contenido xi</strong></p>
+<p><strong>11 Componentes de la GUI: parte 1 462</strong></p>
+<p><strong>11.1 Introducción 463</strong></p>
+<p><strong>11.2 Entrada/salida simple basada en GUI con JOptionPane 464</strong></p>
+<p><strong>11.3 Generalidades de los componentes de Swing 467</strong></p>
+<p><strong>11.4 Mostrar texto e imágenes en una ventana 469</strong></p>
+<p><strong>11.5 Campos de texto y una introducción al manejo de eventos con clases anidadas 474</strong></p>
+<p><strong>11.6 Tipos de eventos comunes de la GUI e interfaces de escucha 479</strong></p>
+<p><strong>11.7 Cómo funciona el manejo de eventos 481</strong></p>
+<p><strong>11.8 JButton 483</strong></p>
+<p><strong>11.9 Botones que mantienen el estado 486</strong></p>
+<p><strong>11.9.1 JCheckBox 486</strong></p>
+<p><strong>11.9.2 JRadioButton 489</strong></p>
+<p><strong>11.10 JComboBox y el uso de una clase interna anónima para el manejo de eventos 492</strong></p>
+<p><strong>11.11 JList 495</strong></p>
+<p><strong>11.12 Listas de selección múltiple 497</strong></p>
+<p><strong>11.13 Manejo de eventos de ratón 500</strong></p>
+<p><strong>11.14 Clases adaptadoras 504</strong></p>
+<p><strong>11.15 Subclase de JPanel para dibujar con el ratón 507</strong></p>
+<p><strong>11.16 Manejo de eventos de teclas 510</strong></p>
+<p><strong>11.17 Administradores de esquemas 513</strong></p>
+<p><strong>11.17.1 FlowLayout 514</strong></p>
+<p><strong>11.17.2 BorderLayout 517</strong></p>
+<p><strong>11.17.3 GridLayout 520</strong></p>
+<p><strong>11.18 Uso de paneles para administrar esquemas más complejos 522</strong></p>
+<p><strong>11.19 JTextArea 523</strong></p>
+<p><strong>11.20 Conclusión 526</strong></p>
+<p><strong>12 Gráfi cos y Java 2DTM 539</strong></p>
+<p><strong>12.1 Introducción 540</strong></p>
+<p><strong>12.2 Contextos y objetos de gráfi cos 542</strong></p>
+<p><strong>12.3 Control de colores 542</strong></p>
+<p><strong>12.4 Control de tipos de letra 548</strong></p>
+<p><strong>12.5 Dibujo de líneas, rectángulos y óvalos 554</strong></p>
+<p><strong>12.6 Dibujo de arcos 558</strong></p>
+<p><strong>12.7 Dibujo de polígonos y polilíneas 560</strong></p>
+<p><strong>12.8 La API Java 2D 563</strong></p>
+<p><strong>12.9 Conclusión 569</strong></p>
+<p><strong>13 Manejo de excepciones 578</strong></p>
+<p><strong>13.1 Introducción 579</strong></p>
+<p><strong>13.2 Generalidades acerca del manejo de excepciones 580</strong></p>
+<p><strong>13.3 Ejemplo: división entre cero sin manejo de excepciones 580</strong></p>
+<p><strong>13.4 Ejemplo: manejo de excepciones tipo ArithmeticException e InputMismatchException 582</strong></p>
+<p><strong>13.5 Cuándo utilizar el manejo de excepciones 587</strong></p>
+<p><strong>13.6 Jerarquía de excepciones en Java 587</strong></p>
+<p><strong>13.7 Bloque finally 590</strong></p>
+<p><strong>13.8 Limpieza de la pila 594</strong></p>
+<p><strong>13.9 printStackTrace, getStackTrace y getMessage 595</strong></p>
+<p><strong>13.10 Excepciones encadenadas 597</strong></p>
+<p><strong>13.11 Declaración de nuevos tipos de excepciones 599</strong></p>
+<p><strong>13.12 Precondiciones y poscondiciones 600</strong></p>
+<p><strong>00_MAQ_PRELIMINARES.indd xi 4/30/08 12:24:33 AM</strong></p>
+<p><strong>xii Contenido</strong></p>
+<p><strong>13.13 Aserciones 601</strong></p>
+<p><strong>13.14 Conclusión 602</strong></p>
+<p><strong>14 Archivos y fl ujos 608</strong></p>
+<p><strong>14.1 Introducción 609</strong></p>
+<p><strong>14.2 Jerarquía de datos 610</strong></p>
+<p><strong>14.3 Archivos y fl ujos 611</strong></p>
+<p><strong>14.4 La clase File 613</strong></p>
+<p><strong>14.5 Archivos de texto de acceso secuencial 617</strong></p>
+<p><strong>14.5.1 Creación de un archivo de texto de acceso secuencial 617</strong></p>
+<p><strong>14.5.2 Cómo leer datos de un archivo de texto de acceso secuencial 623</strong></p>
+<p><strong>14.5.3 Ejemplo práctico: un programa de solicitud de crédito 625</strong></p>
+<p><strong>14.5.4 Actualización de archivos de acceso secuencial 630</strong></p>
+<p><strong>14.6 Serialización de objetos 630</strong></p>
+<p><strong>14.6.1 Creación de un archivo de acceso secuencial mediante el uso de la serialización</strong></p>
+<p><strong>de objetos 631</strong></p>
+<p><strong>14.6.2 Lectura y deserialización de datos de un archivo de acceso secuencial 636</strong></p>
+<p><strong>14.7 Clases adicionales de java.io 638</strong></p>
+<p><strong>14.8 Abrir archivos con JFileChooser 640</strong></p>
+<p><strong>14.9 Conclusión 643</strong></p>
+<p><strong>15 Recursividad 653</strong></p>
+<p><strong>15.1 Introducción 654</strong></p>
+<p><strong>15.2 Conceptos de recursividad 655</strong></p>
+<p><strong>15.3 Ejemplo de uso de recursividad: factoriales 655</strong></p>
+<p><strong>15.4 Ejemplo de uso de recursividad: serie de Fibonacci 658</strong></p>
+<p><strong>15.5 La recursividad y la pila de llamadas a métodos 661</strong></p>
+<p><strong>15.6 Comparación entre recursividad e iteración 662</strong></p>
+<p><strong>15.7 Las torres de Hanoi 664</strong></p>
+<p><strong>15.8 Fractales 666</strong></p>
+<p><strong>15.9 “Vuelta atrás” recursiva (backtracking) 676</strong></p>
+<p><strong>15.10 Conclusión 676</strong></p>
+<p><strong>15.11 Recursos en Internet y Web 676</strong></p>
+<p><strong>16 Búsqueda y ordenamiento 685</strong></p>
+<p><strong>16.1 Introducción 686</strong></p>
+<p><strong>16.2 Algoritmos de búsqueda 687</strong></p>
+<p><strong>16.2.1 Búsqueda lineal 687</strong></p>
+<p><strong>16.2.2 Búsqueda binaria 690</strong></p>
+<p><strong>16.3 Algoritmos de ordenamiento 695</strong></p>
+<p><strong>16.3.1 Ordenamiento por selección 695</strong></p>
+<p><strong>16.3.2 Ordenamiento por inserción 699</strong></p>
+<p><strong>16.3.3 Ordenamiento por combinación 702</strong></p>
+<p><strong>16.4 Invariantes 708</strong></p>
+<p><strong>16.5 Conclusión 709</strong></p>
+<p><strong>17 Estructuras de datos 714</strong></p>
+<p><strong>17.1 Introducción 715</strong></p>
+<p><strong>17.2 Clases de envoltura de tipos para los tipos primitivos 716</strong></p>
+<p><strong>17.3 Autoboxing y autounboxing 716</strong></p>
+<p><strong>00_MAQ_PRELIMINARES.indd xii 4/30/08 12:24:34 AM</strong></p>
+<p><strong>Contenido xiii</strong></p>
+<p><strong>17.4 Clases autorreferenciadas 717</strong></p>
+<p><strong>17.5 Asignación dinámica de memoria 717</strong></p>
+<p><strong>17.6 Listas enlazadas 718</strong></p>
+<p><strong>17.7 Pilas 726</strong></p>
+<p><strong>17.8 Colas 730</strong></p>
+<p><strong>17.9 Árboles 733</strong></p>
+<p><strong>17.10 Conclusión 739</strong></p>
+<p><strong>18 Genéricos 761</strong></p>
+<p><strong>18.1 Introducción 762</strong></p>
+<p><strong>18.2 Motivación para los métodos genéricos 762</strong></p>
+<p><strong>18.3 Métodos genéricos: implementación y traducción en tiempo de compilación 764</strong></p>
+<p><strong>18.4 Cuestiones adicionales sobre la traducción en tiempo de compilación: métodos que utilizan</strong></p>
+<p><strong>un parámetro de tipo como tipo de valor de retorno 767</strong></p>
+<p><strong>18.5 Sobrecarga de métodos genéricos 770</strong></p>
+<p><strong>18.6 Clases genéricas 770</strong></p>
+<p><strong>18.7 Tipos crudos (raw) 779</strong></p>
+<p><strong>18.8 Comodines en métodos que aceptan parámetros de tipo 783</strong></p>
+<p><strong>18.9 Genéricos y herencia: observaciones 787</strong></p>
+<p><strong>18.10 Conclusión 787</strong></p>
+<p><strong>18.11 Recursos en Internet y Web 787</strong></p>
+<p><strong>19 Colecciones 792</strong></p>
+<p><strong>19.1 Introducción 793</strong></p>
+<p><strong>19.2 Generalidades acerca de las colecciones 794</strong></p>
+<p><strong>19.3 La clase Arrays 794</strong></p>
+<p><strong>19.4 La interfaz Collection y la clase Collections 797</strong></p>
+<p><strong>19.5 Listas 798</strong></p>
+<p><strong>19.5.1 ArrayList e Iterator 799</strong></p>
+<p><strong>19.5.2 LinkedList 800</strong></p>
+<p><strong>19.5.3 Vector 805</strong></p>
+<p><strong>19.6 Algoritmos de las colecciones 808</strong></p>
+<p><strong>19.6.1 El algoritmo sort 809</strong></p>
+<p><strong>19.6.2 El algoritmo shuffle 812</strong></p>
+<p><strong>19.6.3 Los algoritmos reverse, fill, copy, max y min 815</strong></p>
+<p><strong>19.6.4 El algoritmo binarySearch 816</strong></p>
+<p><strong>19.6.5 Los algoritmos addAll, frequency y disjoint 818</strong></p>
+<p><strong>19.7 La clase Stack del paquete java.util 820</strong></p>
+<p><strong>19.8 La clase PriorityQueue y la interfaz Queue 822</strong></p>
+<p><strong>19.9 Conjuntos 823</strong></p>
+<p><strong>19.10 Mapas 826</strong></p>
+<p><strong>19.11 La clase Properties 829</strong></p>
+<p><strong>19.12 Colecciones sincronizadas 832</strong></p>
+<p><strong>19.13 Colecciones no modifi cables 833</strong></p>
+<p><strong>19.14 Implementaciones abstractas 834</strong></p>
+<p><strong>19.15 Conclusión 834</strong></p>
+<p><strong>20 Introducción a los applets de Java 841</strong></p>
+<p><strong>20.1 Introducción 842</strong></p>
+<p><strong>20.2 Applets de muestra incluidos en el JDK 842</strong></p>
+<p><strong>20.3 Applet simple en Java: cómo dibujar una cadena 846</strong></p>
+<p><strong>00_MAQ_PRELIMINARES.indd xiii 4/30/08 12:24:34 AM</strong></p>
+<p><strong>xiv Contenido</strong></p>
+<p><strong>20.3.1 Cómo ejecutar un applet en el appletviewer 848</strong></p>
+<p><strong>20.3.2 Ejecución de un applet en un explorador Web 850</strong></p>
+<p><strong>20.4 Métodos del ciclo de vida de los applets 850</strong></p>
+<p><strong>20.5 Cómo inicializar una variable de instancia con el método int 851</strong></p>
+<p><strong>20.6 Modelo de seguridad “caja de arena” 853</strong></p>
+<p><strong>20.7 Recursos en Internet y Web 853</strong></p>
+<p><strong>20.8 Conclusión 854</strong></p>
+<p><strong>21 Multimedia: applets y aplicaciones 858</strong></p>
+<p><strong>21.1 Introducción 859</strong></p>
+<p><strong>21.2 Cómo cargar, mostrar y escalar imágenes 860</strong></p>
+<p><strong>21.3 Animación de una serie de imágenes 862</strong></p>
+<p><strong>21.4 Mapas de imágenes 867</strong></p>
+<p><strong>21.5 Carga y reproducción de clips de audio 869</strong></p>
+<p><strong>21.6 Reproducción de video y otros medios con el Marco de trabajo de medios de Java 872</strong></p>
+<p><strong>21.7 Conclusión 876</strong></p>
+<p><strong>21.8 Recursos Web 876</strong></p>
+<p><strong>22 Componentes de la GUI: parte 2 883</strong></p>
+<p><strong>22.1 Introducción 884</strong></p>
+<p><strong>22.2 JSlider 884</strong></p>
+<p><strong>22.3 Ventanas: observaciones adicionales 888</strong></p>
+<p><strong>22.4 Uso de menús con marcos 889</strong></p>
+<p><strong>22.5 JPopupMenu 896</strong></p>
+<p><strong>22.6 Apariencia visual adaptable 899</strong></p>
+<p><strong>22.7 JDesktopPane y JInternalFrame 903</strong></p>
+<p><strong>22.8 JTabbedPane 906</strong></p>
+<p><strong>22.9 Administradores de esquemas: BoxLayout y GridBagLayout 908</strong></p>
+<p><strong>22.10 Conclusión 920</strong></p>
+<p><strong>23 Subprocesamiento múltiple 925</strong></p>
+<p><strong>23.1 Introducción 926</strong></p>
+<p><strong>23.2 Estados de los subprocesos: ciclo de vida de un subproceso 927</strong></p>
+<p><strong>23.3 Prioridades y programación de subprocesos 929</strong></p>
+<p><strong>23.4 Creación y ejecución de subprocesos 931</strong></p>
+<p><strong>23.4.1 Objetos Runnable y la clase Thread 931</strong></p>
+<p><strong>23.4.2 Administración de subprocesos con el marco de trabajo Executor 934</strong></p>
+<p><strong>23.5 Sincronización de subprocesos 935</strong></p>
+<p><strong>23.5.1 Cómo compartir datos sin sincronización 936</strong></p>
+<p><strong>23.5.2 Cómo compartir datos con sincronización: hacer las operaciones atómicas 940</strong></p>
+<p><strong>23.6 Relación productor/consumidor sin sincronización 943</strong></p>
+<p><strong>23.7 Relación productor/consumidor: ArrayBlockingQueue 949</strong></p>
+<p><strong>23.8 Relación productor/consumidor con sincronización 952</strong></p>
+<p><strong>23.9 Relación productor/consumidor: búferes delimitados 957</strong></p>
+<p><strong>23.10 Relación productor/consumidor: las interfaces Lock y Condition 964</strong></p>
+<p><strong>23.11 Subprocesamiento múltiple con GUIs 970</strong></p>
+<p><strong>23.11.1 Realización de cálculos en un subproceso trabajador 970</strong></p>
+<p><strong>23.11.2 Procesamiento de resultados inmediatos con SwingWorker 976</strong></p>
+<p><strong>23.12 Otras clases e interfaces en java.util.concurrent 982</strong></p>
+<p><strong>23.13 Conclusión 983</strong></p>
+<p><strong>00_MAQ_PRELIMINARES.indd xiv 4/30/08 12:24:34 AM</strong></p>
+<p><strong>Contenido xv</strong></p>
+<p><strong>24 Redes 992</strong></p>
+<p><strong>24.1 Introducción 993</strong></p>
+<p><strong>24.2 Manipulación de URLs 994</strong></p>
+<p><strong>24.3 Cómo leer un archivo en un servidor Web 998</strong></p>
+<p><strong>24.4 Cómo establecer un servidor simple utilizando sockets de fl ujo 1001</strong></p>
+<p><strong>24.5 Cómo establecer un cliente simple utilizando sockets de fl ujo 1003</strong></p>
+<p><strong>24.6 Interacción entre cliente/servidor mediante conexiones de socket de fl ujo 1004</strong></p>
+<p><strong>24.7 Interacción entre cliente/servidor sin conexión mediante datagramas 1014</strong></p>
+<p><strong>24.8 Juego de Tres en raya (Gato) tipo cliente/servidor, utilizando un servidor con</strong></p>
+<p><strong>subprocesamiento múltiple 1021</strong></p>
+<p><strong>24.9 La seguridad y la red 1034</strong></p>
+<p><strong>24.10 [Bono Web] Ejemplo práctico: servidor y cliente DeitelMessenger 1034</strong></p>
+<p><strong>24.11 Conclusión 1035</strong></p>
+<p><strong>25 Acceso a bases de datos con JDBC 1041</strong></p>
+<p><strong>25.1 Introducción 1042</strong></p>
+<p><strong>25.2 Bases de datos relacionales 1043</strong></p>
+<p><strong>25.3 Generalidades acerca de las bases de datos relacionales: la base de datos libros 1044</strong></p>
+<p><strong>25.4 SQL 1047</strong></p>
+<p><strong>25.4.1 Consulta básica SELECT 1047</strong></p>
+<p><strong>25.4.2 La cláusula WHERE 1048</strong></p>
+<p><strong>25.4.3 La cláusula ORDER BY 1050</strong></p>
+<p><strong>25.4.4 Cómo fusionar datos de varias tablas: INNER JOIN 1051</strong></p>
+<p><strong>25.4.5 La instrucción INSERT 1053</strong></p>
+<p><strong>25.4.6 La instrucción UPDATE 1053</strong></p>
+<p><strong>25.4.7 La instrucción DELETE 1054</strong></p>
+<p><strong>25.5 Instrucciones para instalar MySQL y MySQL Connector/J 1055</strong></p>
+<p><strong>25.6 Instrucciones para establecer una cuenta de usuario de MySQL 1056</strong></p>
+<p><strong>25.7 Creación de la base de datos libros en MySQL 1057</strong></p>
+<p><strong>25.8 Manipulación de bases de datos con JDBC 1057</strong></p>
+<p><strong>25.8.1 Cómo conectarse y realizar consultas en una base de datos 1057</strong></p>
+<p><strong>25.8.2 Consultas en la base de datos libros 1062</strong></p>
+<p><strong>25.9 La interfaz RowSet 1073</strong></p>
+<p><strong>25.10 Java DB/Apache Derby 1075</strong></p>
+<p><strong>25.11 Objetos PreparedStatement 1076</strong></p>
+<p><strong>25.12 Procedimientos almacenados 1090</strong></p>
+<p><strong>25.13 Procesamiento de transacciones 1091</strong></p>
+<p><strong>25.14 Conclusión 1091</strong></p>
+<p><strong>25.15 Recursos Web y lecturas recomendadas 1092</strong></p>
+<p><strong>Los capítulos 26 a 30 así como los apéndices, los encontrará en el CD que acompaña este libro.</strong></p>
+<p><strong>26 Aplicaciones Web: parte 1 1101</strong></p>
+<p><strong>26.1 Introducción 1102</strong></p>
+<p><strong>26.2 Transacciones HTTP simples 1103</strong></p>
+<p><strong>26.3 Arquitectura de aplicaciones multinivel 1105</strong></p>
+<p><strong>26.4 Tecnologías Web de Java 1106</strong></p>
+<p><strong>26.4.1 Servlets 1106</strong></p>
+<p><strong>26.4.2 JavaServer Pages 1106</strong></p>
+<p><strong>26.4.3 JavaServer Faces 1107</strong></p>
+<p><strong>26.4.4 Tecnologías Web en Java Studio Creator 2 1108</strong></p>
+<p><strong>00_MAQ_PRELIMINARES.indd xv 4/30/08 12:24:35 AM</strong></p>
+<p><strong>xvi Contenido</strong></p>
+<p><strong>26.5 Creación y ejecución de una aplicación simple en Java Studio Creator 2 1108</strong></p>
+<p><strong>26.5.1 Análisis de un archivo JSP 1109</strong></p>
+<p><strong>26.5.2 Análisis de un archivo de bean de página 1111</strong></p>
+<p><strong>26.5.3 Ciclo de vida del procesamiento de eventos 1115</strong></p>
+<p><strong>26.5.4 Relación entre la JSP y los archivos de bean de página 1115</strong></p>
+<p><strong>26.5.5 Análisis del XHTML generado por una aplicación Web de Java 1115</strong></p>
+<p><strong>26.5.6 Creación de una aplicación Web en Java Studio Creator 2 1117</strong></p>
+<p><strong>26.6 Componentes JSF 1123</strong></p>
+<p><strong>26.6.1 Componentes de texto y gráfi cos 1123</strong></p>
+<p><strong>26.6.2 Validación mediante los componentes de validación y los validadores personalizados 1128</strong></p>
+<p><strong>26.7 Rastreo de sesiones 1137</strong></p>
+<p><strong>26.7.1 Cookies 1138</strong></p>
+<p><strong>26.7.2 Rastreo de sesiones con el objeto SessionBean 1150</strong></p>
+<p><strong>26.8 Conclusión 1162</strong></p>
+<p><strong>26.9 Recursos Web 1163</strong></p>
+<p><strong>27 Aplicaciones Web: parte 2 1173</strong></p>
+<p><strong>27.1 Introducción 1174</strong></p>
+<p><strong>27.2 Acceso a bases de datos en las aplicaciones Web 1174</strong></p>
+<p><strong>27.2.1 Creación de una aplicación Web que muestra datos de una base de datos 1175</strong></p>
+<p><strong>27.2.2 Modifi cación del archivo de bean de página para la aplicación LibretaDirecciones 1183</strong></p>
+<p><strong>27.3 Componentes JSF habilitados para Ajax 1185</strong></p>
+<p><strong>27.3.1 Biblioteca de componentes Java BluePrints 1186</strong></p>
+<p><strong>27.4 Autocomplete Text Field y formularios virtuales 1187</strong></p>
+<p><strong>27.4.1 Confi guración de los formularios virtuales 1187</strong></p>
+<p><strong>27.4.2 Archivo JSP con formularios virtuales y un AutoComplete Text Field 1189</strong></p>
+<p><strong>27.4.3 Cómo proporcionar sugerencias para un AutoComplete Text Field 1192</strong></p>
+<p><strong>27.5 Componente Map Viewer de Google Maps 1196</strong></p>
+<p><strong>27.5.1 Cómo obtener una clave de la API Google Maps 1196</strong></p>
+<p><strong>27.5.2 Cómo agregar un componente y un Map Viewer a una página 1196</strong></p>
+<p><strong>27.5.3 Archivo JSP con un componente Map Viewer 1197</strong></p>
+<p><strong>27.5.4 Bean de página que muestra un mapa en el componente Map Viewer 1201</strong></p>
+<p><strong>27.6 Conclusión 1206</strong></p>
+<p><strong>27.7 Recursos Web 1206</strong></p>
+<p><strong>28 Servicios Web JAX-WS, Web 2.0 y Mash-ups 1212</strong></p>
+<p><strong>28.1 Introducción 1213</strong></p>
+<p><strong>28.1.1 Descarga, instalación y confi guración de Netbeans 5.5 y Sun Java System</strong></p>
+<p><strong>Application Server 1214</strong></p>
+<p><strong>28.1.2 Centro de recursos de servicios Web y Centros de recursos sobre Java</strong></p>
+<p><strong>en www.deitel.com 1215</strong></p>
+<p><strong>28.2 Fundamentos de los servicios Web de Java 1215</strong></p>
+<p><strong>28.3 Creación, publicación, prueba y descripción de un servicio Web 1216</strong></p>
+<p><strong>28.3.1 Creación de un proyecto de aplicación Web y cómo agregar una clase de servicio</strong></p>
+<p><strong>Web en Netbeans 1216</strong></p>
+<p><strong>28.3.2 Defi nición del servicio Web EnteroEnorme en Netbeans 1217</strong></p>
+<p><strong>28.3.3 Publicación del servicio Web EnteroEnorme desde Netbeans 1221</strong></p>
+<p><strong>28.3.4 Prueba del servicio Web EnteroEnorme con la página Web Tester de</strong></p>
+<p><strong>Sun Java System Application Server 1222</strong></p>
+<p><strong>28.3.5 Descripción de un servicio Web con el Lenguaje de descripción de servicios</strong></p>
+<p><strong>Web (WSDL) 1224</strong></p>
+<p><strong>00_MAQ_PRELIMINARES.indd xvi 4/30/08 12:24:35 AM</strong></p>
+<p><strong>Contenido xvii</strong></p>
+<p><strong>28.4 Cómo consumir un servicio Web 1224</strong></p>
+<p><strong>28.4.1 Creación de un cliente para consumir el servicio Web EnteroEnorme 1225</strong></p>
+<p><strong>28.4.2 Cómo consumir el servicio Web EnteroEnorme 1227</strong></p>
+<p><strong>28.5 SOAP 1234</strong></p>
+<p><strong>28.6 Rastreo de sesiones en los servicios Web 1234</strong></p>
+<p><strong>28.6.1 Creación de un servicio Web Blackjack 1235</strong></p>
+<p><strong>28.6.2 Cómo consumir el servicio Web Blackjack 1239</strong></p>
+<p><strong>28.7 Cómo consumir un servicio Web controlado por base de datos desde una aplicación Web 1249</strong></p>
+<p><strong>28.7.1 Confi guración de Java DB en Netbeans y creación de la base de datos Reservacion 1249</strong></p>
+<p><strong>28.7.2 Creación de una aplicación Web para interactuar con el servicio Web Reservacion 1253</strong></p>
+<p><strong>28.8 Cómo pasar un objeto de un tipo defi nido por el usuario a un servicio Web 1258</strong></p>
+<p><strong>28.9 Conclusión 1266</strong></p>
+<p><strong>28.10 Recursos Web 1267</strong></p>
+<p><strong>29 Salida con formato 1275</strong></p>
+<p><strong>29.1 Introducción 1276</strong></p>
+<p><strong>29.2 Flujos 1276</strong></p>
+<p><strong>29.3 Aplicación de formato a la salida con printf 1276</strong></p>
+<p><strong>29.4 Impresión de enteros 1277</strong></p>
+<p><strong>29.5 Impresión de números de punto fl otante 1278</strong></p>
+<p><strong>29.6 Impresión de cadenas y caracteres 1279</strong></p>
+<p><strong>29.7 Impresión de fechas y horas 1280</strong></p>
+<p><strong>29.8 Otros caracteres de conversión 1283</strong></p>
+<p><strong>29.9 Impresión con anchuras de campo y precisiones 1284</strong></p>
+<p><strong>29.10 Uso de banderas en la cadena de formato de printf 1285</strong></p>
+<p><strong>29.11 Impresión con índices como argumentos 1289</strong></p>
+<p><strong>29.12 Impresión de literales y secuencias de escape 1290</strong></p>
+<p><strong>29.13 Aplicación de formato a la salida con la clase Formatter 1290</strong></p>
+<p><strong>29.14 Conclusión 1291</strong></p>
+<p><strong>30 Cadenas, caracteres y expresiones regulares 1297</strong></p>
+<p><strong>30.1 Introducción 1298</strong></p>
+<p><strong>30.2 Fundamentos de los caracteres y las cadenas 1298</strong></p>
+<p><strong>30.3 La clase String 1299</strong></p>
+<p><strong>30.3.1 Constructores de String 1299</strong></p>
+<p><strong>30.3.2 Métodos length, charAt y getChars de String 1300</strong></p>
+<p><strong>30.3.3 Comparación entre cadenas 1301</strong></p>
+<p><strong>30.3.4 Localización de caracteres y subcadenas en las cadenas 1305</strong></p>
+<p><strong>30.3.5 Extracción de subcadenas de las cadenas 1307</strong></p>
+<p><strong>30.3.6 Concatenación de cadenas 1308</strong></p>
+<p><strong>30.3.7 Métodos varios de String 1308</strong></p>
+<p><strong>30.3.8 Método valueOf de String 1309</strong></p>
+<p><strong>30.4 La clase StringBuilder 1311</strong></p>
+<p><strong>30.4.1 Constructores de StringBuilder 1311</strong></p>
+<p><strong>30.4.2 Métodos length, capacity, setLength y ensureCapacity de StringBuilder 1312</strong></p>
+<p><strong>30.4.3 Métodos charAt, setCharAt, getChars y reverse de StringBuilder 1313</strong></p>
+<p><strong>30.4.4 Métodos append de StringBuilder 1314</strong></p>
+<p><strong>30.4.5 Métodos de inserción y eliminación de StringBuilder 1316</strong></p>
+<p><strong>30.5 La clase Character 1317</strong></p>
+<p><strong>30.6 La clase StringTokenizer 1321</strong></p>
+<p><strong>30.7 Expresiones regulares, la clase Pattern y la clase Matcher 1322</strong></p>
+<p><strong>30.8 Conclusión 1330</strong></p>
+<p><strong>00_MAQ_PRELIMINARES.indd xvii 4/30/08 12:24:36 AM</strong></p>
+<p><strong>xviii Contenido</strong></p>
+<p><strong>A Tabla de precedencia de los operadores 1340</strong></p>
+<p><strong>B Conjunto de caracteres ASCII 1342</strong></p>
+<p><strong>C Palabras clave y palabras reservadas 1343</strong></p>
+<p><strong>D Tipos primitivos 1344</strong></p>
+<p><strong>E Sistemas numéricos 1345</strong></p>
+<p><strong>E.1 Introducción 1346</strong></p>
+<p><strong>E.2 Abreviatura de los números binarios como números octales y hexadecimales 1348</strong></p>
+<p><strong>E.3 Conversión de números octales y hexadecimales a binarios 1349</strong></p>
+<p><strong>E.4 Conversión de un número binario, octal o hexadecimal a decimal 1350</strong></p>
+<p><strong>E.5 Conversión de un número decimal a binario, octal o hexadecimal 1351</strong></p>
+<p><strong>E.6 Números binarios negativos: notación de complemento a dos 1352</strong></p>
+<p><strong>F GroupLayout 1357</strong></p>
+<p><strong>F.1 Introducción 1357</strong></p>
+<p><strong>F.2 Fundamentos de GroupLayout 1357</strong></p>
+<p><strong>F.3 Creación de un objeto SelectorColores 1358</strong></p>
+<p><strong>F.4 Recursos Web sobre GroupLayout 1367</strong></p>
+<p><strong>G Componentes de integración Java Desktop (JDIC) 1368</strong></p>
+<p><strong>G.1 Introducción 1368</strong></p>
+<p><strong>G.2 Pantallas de inicio 1368</strong></p>
+<p><strong>G.3 La clase Desktop 1370</strong></p>
+<p><strong>G.4 Iconos de la bandeja 1371</strong></p>
+<p><strong>G.5 Proyectos JDIC Incubator 1373</strong></p>
+<p><strong>G.6 Demos de JDIC</strong></p>
+       <div data-role="collapsible" data-content-theme="false">
+         <h1>¿Quieres este libro...?</h1>
+         <div>
+           <p><a href="http://articulo.mercadolibre.com.mx/MLM-574561494-libro-como-programar-en-java-deitel-pdf-_JM" target="_self">Compralo aqui</a></p>
+           <p><a href="https://docs.google.com/file/d/0B1znxPN5ACgSbHhVU1RaVFh0cVU/edit" target="_self">Descargalo aqui</a></p>
+<br>
+         </div>
+         <div></div>
+       </div>
+     </div>
+  </div>
+   <center></center>
+<center></center>
+<div data-role="footer" data-theme="b" data-position="fixed">
+
+    <h4> Aplicacion Tres, LMA </h4>
+  </div>
+</div>
+
+<div data-role="page" id="Pagina6" data-add-back-btn="true" data-theme="b">
+   <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+   <h1> 6.Comunicaciones y Redes de Computadoras</h1> 
+   </div>
+   <div data-role="content" align="center">
+     <div>
+       <h2><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image06','','imagenes/6contraportada.JPG',1)"><img src="imagenes/6portada.JPG" width="200" height="200" id="Image06"></a></h2>
+       <p><strong>PARTE I: Descripción general<br>
+Capítulo 1. Introducción a las comunicaciones de datos y redes<br>
+Capítulo 2. Arquitectura de protocolos</strong></p>
+       <p><strong>PARTE II: Comunicaciones de datos<br>
+        Capítulo 3. Transmisión de datos<br>
+        Capítulo 4. Medios de transmisión<br>
+        Capítulo 5. Técnicas para la codificación de señales<br>
+        Capítulo 6. Técnicas de comunicación de datos digitales<br>
+        Capítulo 7. Protocolos de control del enlace de datos<br>
+        Capítulo 8. Multiplexación<br>
+        Capítulo 9. Espectro expandido</strong></p>
+       <p><strong>PARTE III: Redes de área amplia<br>
+        Capítulo 10. Conmutación de circuitos y de paquetes<br>
+        Capítulo 11. Modo de transferencia asíncrono<br>
+        Capítulo 12. Encaminamiento en redes conmutadas<br>
+        Capítulo 13. Congestión en redes de datos<br>
+        Capítulo 14. Redes celulares inalámbricas</strong></p>
+       <p><strong>PARTE IV: Redes de área local<br>
+        Capítulo 15. Visión general de las redes de área local<br>
+        Capítulo 16. Redes LAN de alta velocidad<br>
+        Capítulo 17. Redes LAN inalámbricas</strong></p>
+       <p><strong>PARTE V: Protocolos de interconexión<br>
+        Capítulo 18. Protocolos de interconexión de redes<br>
+        Capítulo 19. Funcionamiento de la interconexión de redes<br>
+        Capítulo 20. Protocolos de transporte<br>
+        Capítulo 21. Seguridad en redes<br>
+        Capítulo 22. Aplicaciones distribuidas</strong></p>
+       <p><strong>Apéndice A. RFC citados en este libro<br>
+        Apéndice B. Análisis de Fourier<br>
+        Apéndice C. Programación de sockets<br>
+        Apéndice D. Proyectos para la enseñanza de comunicaciones de datos y redes de computadores<br>
+        Glosario.<br>
+        Bibliografía.<br>
+        Índice alfabético.</strong></p>
+       <div data-role="collapsible" data-content-theme="false">
+         <h1>¿Quieres este libro...?</h1>
+         <div>
+           <p><a href="http://articulo.mercadolibre.com.mx/MLM-560591827-libro-comunicaciones-y-redes-de-computadores-wiliam-stallin-_JM" target="_self">Compralo aqui</a></p>
+           <p><a href="http://www.freelibros.org/redes/comunicaciones-y-redes-de-computadores-7ma-edicion-william-stallings.html" target="_self">Descargalo aqui</a></p>
+<br>
+         </div>
+         <div></div>
+       </div>
+     </div>
+  </div>
+   <div data-role="footer" data-theme="b" data-position="fixed">
+     <h4> Aplicacion Tres, LMA </h4>
+   </div>
+</div>
+
+<div data-role="page" id="Pagina7" data-add-back-btn="true" data-theme="b">
+   <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+   <h1> 7.Visual C#2010 </h1> 
+   </div>
+   <div data-role="content" align="center">
+     <div>
+       <h2><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image07','','imagenes/7contraportada.JPG',1)"><img src="imagenes/7portada.JPG" width="200" height="200" id="Image07"></a></h2>
+       <p><strong>Parte I </strong></p>
+       <p><strong>Presentación de Microsoft Visual C # y Microsoft  Visual Studio 2010<br>
+        1 Bienvenido a C # ... 3<br>
+        2 Trabajar con variables, operadores y expresiones... 27<br>
+        3 Métodos de escritura y aplicación del alcance...  47<br>
+        4 Uso de las declaraciones de decisión... 73<br>
+        5 Uso de las instrucciones de asignación e iteración <br>
+        de compuestos... 91<br>
+        6 Administración de errores y excepciones... 109<br>
+        Parte II Descripción  del lenguaje C #<br>
+        7 Creación y gestión de clases y objetos... 129<br>
+        8 Comprensión de valores y referencias... 151<br>
+        9 Creación de tipos de valores con enumeraciones y  estructuras... 173<br>
+        10 Uso de matrices y colecciones... 191<br>
+        11 Descripción de las matrices de parámetros... 219<br>
+        12 Trabajo con herencia... 231<br>
+        12 Creación de interfaces y definición de clases  abstractas... 253<br>
+        14 Uso de la recolección de basura y administración de  recursos... 279<br>
+        Parte III Creación de  componentes<br>
+        15 Implementación de propiedades en los campos de acceso...  295<br>
+        16 Uso de los indexadores... 315<br>
+        17 Interrumpir eventos de flujo y manejo del programa... 329<br>
+        18 Introducción a los Genéricos... 353<br>
+        19 Enumeración de colecciones... 381<br>
+        20 Consultar datos en memoria utilizando expresiones de  consulta... 395<br>
+        21 Sobrecarga del operador... 419<br>
+        Iv Resumen de los contenidos<br>
+        Parte IV Creación de  Windows Presentation Foundation <br>
+        Aplicaciones<br>
+        22 Introducción a Windows Presentation Foundation... 443<br>
+        23 Recopilación de entradas de usuario... 477<br>
+        24 Realización de la validación... 509<br>
+        Parte V Gestión de  datos <br>
+        25 Consulta de información en una base de datos... 535<br>
+        26 Visualización y edición de datos utilizando la entidad<br>
+        Marco y enlace de datos... 565<br>
+        Parte VI Construyendo  Soluciones Profesionales con Visual Studio 2010 <br>
+        27 Presentación de la biblioteca paralela de tareas... 599<br>
+        28 Realización de acceso a datos en paralelo... 649<br>
+        29 Creación y uso de un servicio web... 683<br>
+        Apéndice<br>
+        Interoperar con lenguajes dinámicos... 717</strong></p>
+       <div data-role="collapsible" data-content-theme="false">
+         <h1>¿Quieres este libro...?</h1>
+         <div>
+           <p><a href="https://www.casadellibro.com/libro-visual-c-2010-paso-a-paso/9788441528246/1805674" target="_self">Compralo aqui</a></p>
+           <p><a href="https://www.fiuxy.co/ebooks-gratis/3917922-libros-de-programacion-y-varios-descargar-pdf-gratis-mega.html" target="_self">Descargalo aqui</a></p>
+<br>
+         </div>
+         <div></div>
+       </div>
+     </div>
+  </div>
+   <div data-role="footer" data-theme="b" data-position="fixed">
+     <h4> Aplicacion Tres, LMA </h4>
+   </div>
+</div>
+
+<div data-role="page" id="Pagina8" data-add-back-btn="true" data-theme="b">
+   <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+   <h1> 8.Redes de computadoras </h1> 
+   </div>
+   <div data-role="content" align="center">
+     <div>
+       <h2><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image08','','imagenes/8contraportada.JPG',1)"><img src="imagenes/8portada.JPG" width="200" height="200" id="Image08"></a></h2>
+       <p><strong> Contenido: </strong></p>
+       
+       <strong>Prefacio<br>
+1. Introducción<br>
+2. La capa física<br>
+3. La capa de enlace de datos<br>
+4. La subcapa de control de acceso al medio<br>
+5. La capa de red<br>
+6. La capa de transporte<br>
+7. La capa de aplicación<br>
+8. Seguridad en redes<br>
+9. Lista de lecturas y bibliografía<br>
+La presente es la cuarta edición de este libro. Cada edición ha correspondido a una fase diferente de la manera en que se usaron las redes de computadoras. Cuando apareció la primera edición, en 1980, las redes eran una curiosidad académica. Para la segunda edición, en 1988, las redes ya se usaban en universidades y en grandes empresas. Y en 1996, cuando se editó por tercera vez este libro, las redes de computadoras, en particular Internet, se habían convertido en una realidad cotidiana para millones de personas. El elemento nuevo de la cuarta edición es el rápido crecimiento de las redes inalámbricas en muchas formas.<br>
+El panorama de las redes ha cambiado radicalmente desde la tercera edición. A mediados de la década de 1990 existían varios tipos de LANs y WANs, junto con pilas de múltiples protocolos.<br>
+Para el 2003, la única LAN alámbrica de amplio uso tal vez sea Ethernet y prácticamente todas las WANs estarían en Internet. En consecuencia, se habrá eliminado una gran cantidad de material referente a estas antiguas redes</strong>.
+</p>
+       <div data-role="collapsible" data-content-theme="false">
+         <h1>¿Quieres este libro...?</h1>
+         <div>
+           <p><a href="https://mx.casadellibro.com/libro-redes-de-computadoras-4-ed/9789702601623/918118" target="_self">Compralo aqui</a></p>
+           <p><a href="https://juliorestrepo.files.wordpress.com/2010/08/redes-de-computadoras-tanenbaum-4ta-edicion-espanol.pdf" target="_self">Descargalo aqui</a></p>
+<br>
+         </div>
+         <div></div>
+       </div>
+     </div>
+  </div>
+   <div data-role="footer" data-theme="b" data-position="fixed">
+     <h4> Aplicacion Tres, LMA </h4>
+   </div>
+</div>
+
+<div data-role="page" id="Pagina9" data-add-back-btn="true" data-theme="b">
+   <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+   <h1> 9.PROGRAMACIÓN AVANZADA CON: Microsoft: SQL SERVER 2005 </h1> 
+   </div>
+   <div data-role="content" align="center">
+     <div>
+       <h2><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image09','','imagenes/9contraportada.JPG',1)"><img src="imagenes/9portada.JPG" width="200" height="200" id="Image09"></a></h2>
+       <p><strong>Parte 1 Bases de datos relacionales y SQL <br>
+ 1 Introducción a las  bases de datos relacionales y a SQL . . . 3<br>
+Entienda las bases de datos relacionales .  . 4<br>
+El modelo relacional . . . 5<br>
+Aprenda acerca de SQL .. . 15<br>
+La evolución de SQL . .   . 15<br>
+Tipos de instrucciones de SQL .. . 18<br>
+Tipos de ejecución . . .. 19<br>
+El estándar SQL frente a las implementaciones de producto .  . . 21<br>
+ 2 Trabajo con el  entorno SQL . . . . 29<br>
+Entienda el entorno SQL . . . 30<br>
+Entienda los catálogos SQL. . . 32<br>
+Esquemas . . . 34<br>
+Objetos de esquema . . . 35<br>
+¿Qué es una base de datos?. . . . 37<br>
+Nombrado de objetos en un entorno SQL . . . 40<br>
+Nombres calificados . . .   41<br>
+Creación de un esquema . . . 42<br>
+Creación de una base de datos . .  . 44</strong></p>
+       <p><strong> vi Contenido<br>
+        3 Creación y  modificación de tablas. . . 49<br>
+        Creación de tablas en SQL. . . . 50<br>
+        Especificación de los tipos de datos en una columna . . . 54<br>
+        Tipos de datos de cadena . . .55<br>
+        Tipos de datos numéricos . . . 57<br>
+        Tipos de datos de fecha y hora . . .58<br>
+        Tipo de datos de intervalo. . . . 60<br>
+        Tipo de datos booleanos . . .  61<br>
+        Utilice tipos de datos SQL . . . 62<br>
+        Creación de tipos definidos por el usuario. . .63<br>
+        Especificación de los valores predeterminados en una columna  . . .  64<br>
+        Eliminación de tablas en SQL . . .  69<br>
+        4 Implementación de  la integridad de datos . . . 73<br>
+        Entienda las restricciones de integridad. . . 74<br>
+        Utilice restricciones NOT NULL. . . . 76<br>
+        Añada restricciones UNIQUE . . . 77<br>
+        Añada restricciones PRIMARY KEY . . . 79<br>
+        Añada restricciones FOREIGN KEY . . .83<br>
+        La cláusula MATCH . . . 88<br>
+        Defina restricciones CHECK. . . 95<br>
+        Defina afirmaciones . . . 97<br>
+        Creación de dominios y restricciones de dominio . . .98<br>
+        5 Creación de vistas  en SQL . . . 103<br>
+        Añada vistas a la base de datos . . .104<br>
+        Definición de vistas de SQL . . . 108<br>
+        Creación de vistas actualizables. . . .  114<br>
+        Utilice la cláusula WITH CHECK OPTION . . .116<br>
+        Eliminación de vistas de la base de datos . . . 117<br>
+        6 Gestión de  seguridad en la base de datos . . . 123<br>
+        Entienda el modelo de seguridad de SQL . . .124<br>
+        Sesiones SQL . . .126<br>
+        Acceda a objetos de base de datos . . . 128<br>
+        Creación y eliminación de roles. . .  130<br>
+        Otorgue y revoque privilegios . . . 131<br>
+        Revoque privilegios . . .   135<br>
+        Otorgue y revoque roles. . . 137<br>
+        Revoque roles . . . . 138<br>
+        Contenido vii<br>
+        Parte II Acceso y  modificación de datos <br>
+        7 Consulta de datos  de SQL . . 145<br>
+        Utilice la instrucción SELECT para la recuperación de datos.  . . 146<br>
+        La cláusula SELECT y la cláusula FROM . . . 147<br>
+        Utilice la cláusula WHERE para definir condiciones de  búsqueda . . .  152<br>
+        Defina la cláusula WHERE . . .156<br>
+        Utilice la cláusula GROUP BY para agrupar los resultados de  una consulta . . . 159<br>
+        Utilice la cláusula HAVING para especificar un grupo de  condiciones<br>
+        de búsqueda . . . 164<br>
+        Utilice la cláusula ORDER BY para ordenar los resultados de  una consulta . . . 166<br>
+        8 Modificar datos SQL  . . .175<br>
+        Insertar datos SQL . . .176<br>
+        Insertar valores desde una instrucción SELECT . . .. 180<br>
+        Actualizar datos SQL. . . 182<br>
+        Actualizar valores desde una instrucción SELECT . . .185<br>
+        Eliminar datos SQL . . . 186<br>
+        9 Utilizar predicados  . . .193<br>
+        Comparar datos SQL . . . 194<br>
+        Utilizar el predicado BETWEEN . . . 199<br>
+        Arrojar valores nulos . . .200<br>
+        Arrojar valores similares . . . 203<br>
+        Hacer referencia a fuentes adicionales de datos . . .209<br>
+        Utilizar el predicado IN . . . 209<br>
+        Utilizar el predicado EXISTS. . . 213<br>
+        Determinar la cantidad de predicados de comparación . . .  216<br>
+        Utilizar los predicados SOME y ANY . . . 216<br>
+        Utilizar el predicado ALL. . .  218<br>
+        10 Trabajar con  funciones y expresiones de valor . . . 225<br>
+        Utilizar funciones Set. . . 226<br>
+        Utilizar la función COUNT . . . 227<br>
+        Utilizar las funciones MAX y MIN . . .229<br>
+        Utilizar la función SUM . . . 231<br>
+        Utilizar la función AVG . . . 232<br>
+        Utilizar funciones de valor. . . 232<br>
+        Trabajar con funciones de valor de cadena. . . . 233<br>
+        Trabajar con funciones de valor de fecha y hora . . . 236<br>
+        Utilizar expresiones de valor . . . 238<br>
+        Trabajar con expresiones de valor numéricas . . . 238<br>
+        viii Contenido<br>
+        Utilizar la expresión de valor CASE. . . 241<br>
+        Utilizar la expresión de valor CAST. . . 244<br>
+        Utilizar valores especiales . . . 245<br>
+        11 Acceder a  múltiples tablas . . . 253<br>
+        Realizar operaciones básicas join . . . 254<br>
+        Utilizar nombres de correlación . . .  257<br>
+        Crear operaciones join con más de dos tablas . . . 258<br>
+        Crear la operación cross join . . .. 259<br>
+        Crear la operación self-join. . . 260<br>
+        Unir tablas con nombres de columna compartidos . . . 261<br>
+        Crear el método join natural . . . 262<br>
+        Crear el método join de columna nombrada. . . . 263<br>
+        Utilizar el método join de condición . . . 263<br>
+        Crear la inner join . . .264<br>
+        Crear la outer join . . .266<br>
+        Realizar operaciones de unión . . . 269<br>
+        12 Utilizar  subconsultas para acceder y modificar datos. . . 277<br>
+        Crear subconsultas que arrojen múltiples filas . . . 278<br>
+        Utilizar el predicado IN . . . . 279<br>
+        Utilizar el predicado EXISTS. . . 281<br>
+        Utilizar predicados de comparación cuantificados . . 282<br>
+        Crear subconsultas que arrojen un solo valor . . . . . . . .  . . . . . . . . . . . . . . . . . . . . . 283<br>
+        Trabajar con subconsultas correlacionadas . . . . . . . . .  . . . . . . . . . . . . . . . . . . . . . . 284<br>
+        Utilizar subconsultas anidadas. . . . . . . . . . . . . . .  . . . . . . . . . . . . . . . . . . . . . . . . . . 286<br>
+        Utilizar subconsultas para modificar datos . . . . . . . . .  . . . . . . . . . . . . . . . . . . . . . . 288<br>
+        Utilizar subconsultas para insertar datos . . . . . . . . .  . . . . . . . . . . . . . . . . . . . 288<br>
+        Utilizar subconsultas para actualizar datos. . . . . . . . .  . . . . . . . . . . . . . . . . . . 290<br>
+        Utilizar subconsultas para eliminar datos . . . . . . . . .  . . . . . . . . . . . . . . . . . . . 291<br>
+        Parte III Acceso avanzado a los datos<br>
+        13 Crear rutinas  invocadas por SQL . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  . . 299<br>
+        Entender las rutinas invocadas por SQL . . . . . . . . . . .  . . . . . . . . . . . . . . . . . . . . . . 300<br>
+        Procedimientos y funciones invocadas por SQL . . . . . . . .  . . . . . . . . . . . . . . 301<br>
+        Trabajar con la sintaxis básica . . . . . . . . . . . . . .  . . . . . . . . . . . . . . . . . . . . . . 302<br>
+        Crear procedimientos invocados por SQL . . . . . . . . . . .  . . . . . . . . . . . . . . . . . . . . . 303<br>
+        Invocar procedimientos invocados por SQL. . . . . . . . . .  . . . . . . . . . . . . . . . . 305<br>
+        Agregar parámetros de entrada a sus procedimientos . . . . .  . . . . . . . . . . . . . . . . . . 306<br>
+        Utilizar procedimientos para modificar datos. . . . . . . .  . . . . . . . . . . . . . . . . . 309<br>
+        Agregar variables locales a sus procedimientos. . . . . . .  . . . . . . . . . . . . . . . . . . . . . 311<br>
+        Contenido ix<br>
+        Trabajar con instrucciones de control . . . . . . . . . . .  . . . . . . . . . . . . . . . . . . . . . . . . 313<br>
+        Crear instrucciones compuestas . . . . . . . . . . . . . . .  . . . . . . . . . . . . . . . . . . . . 313<br>
+        Crear instrucciones condicionales . . . . . . . . . . . . .  . . . . . . . . . . . . . . . . . . . . 314<br>
+        Crear instrucciones de repetición . . . . . . . . . . . . .  . . . . . . . . . . . . . . . . . . . . . 316<br>
+        Agregar parámetros de salida a sus procedimientos . . . . .  . . . . . . . . . . . . . . . . . . . 320<br>
+        Crear funciones invocadas por SQL . . . . . . . . . . . . .  . . . . . . . . . . . . . . . . . . . . . . . 321<br>
+        14 Crear activadores  SQL. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  . . . . 329<br>
+        Entender los activadores SQL . . . . . . . . . . . . . . . .  . . . . . . . . . . . . . . . . . . . . . . . . . 330<br>
+        Contexto de ejecución del activador . . . . . . . . . . . .  . . . . . . . . . . . . . . . . . . . . 331<br>
+        Crear activadores SQL . . . . . . . . . . . . . . . . . . .  . . . . . . . . . . . . . . . . . . . . . . . . . . . . 333<br>
+        Referenciar valores antiguos y nuevos . . . . . . . . . . .  . . . . . . . . . . . . . . . . . . . 334<br>
+        Quitar activadores SQL . . . . . . . . . . . . . . . . . . .  . . . . . . . . . . . . . . . . . . . . . . 335<br>
+        Crear activadores de inserción . . . . . . . . . . . . . . .  . . . . . . . . . . . . . . . . . . . . . . . . . . 336<br>
+        Crear activadores de actualización. . . . . . . . . . . . .  . . . . . . . . . . . . . . . . . . . . . . . . . 338<br>
+        Crear activadores de eliminación . . . . . . . . . . . . . .  . . . . . . . . . . . . . . . . . . . . 343<br>
+        15 Utilizar cursores  SQL. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  . . . . . 351<br>
+        Entender los cursores SQL . . . . . . . . . . . . . . . . .  . . . . . . . . . . . . . . . . . . . . . . . . . . 352<br>
+        Declarar y abrir cursores SQL . . . . . . . . . . . . . . .  . . . . . . . . . . . . . . . . . . . . . 353<br>
+        Declarar un cursor . . . . . . . . . . . . . . . . . . . . .  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 355<br>
+        Trabajar con elementos opcionales de la sintaxis . . . . . .  . . . . . . . . . . . . . . . 356<br>
+        Crear una instrucción de cursor . . . . . . . . . . . . . .  . . . . . . . . . . . . . . . . . . . . . 360<br>
+        Abrir y cerrar un cursor . . . . . . . . . . . . . . . . . .  . . . . . . . . . . . . . . . . . . . . . . . . . . . . 363<br>
+        Recuperar datos desde un cursor . . . . . . . . . . . . . .  . . . . . . . . . . . . . . . . . . . . . . . . . 363<br>
+        Utilizar instrucciones UPDATE y DELETE posicionadas . . . .  . . . . . . . . . . . . . . . 368<br>
+        Utilizar la instrucción UPDATE posicionada . . . . . . . . .  . . . . . . . . . . . . . . . . 369<br>
+        Utilizar la instrucción DELETE posicionada . . . . . . . . .  . . . . . . . . . . . . . . . . 370<br>
+        16 Manejar  transacciones SQL . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  . . . . . . 377<br>
+        Entender las transacciones SQL . . . . . . . . . . . . . . .  . . . . . . . . . . . . . . . . . . . . . . . . 378<br>
+        Configurar las propiedades de la transacción . . . . . . . .  . . . . . . . . . . . . . . . . . . . . . 381<br>
+        Especificar un nivel de aislamiento . . . . . . . . . . . .  . . . . . . . . . . . . . . . . . . . . 382<br>
+        Especificar un tamaño de diagnóstico . . . . . . . . . . . .  . . . . . . . . . . . . . . . . . . 387<br>
+        Crear una instrucción SET TRANSACTION. . . . . . . . . . . .  . . . . . . . . . . . . . 388<br>
+        Iniciar una transacción . . . . . . . . . . . . . . . . . .  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 389<br>
+        Determinar el aplazamiento de una restricción . . . . . . .  . . . . . . . . . . . . . . . . . . . . . 390<br>
+        Crear puntos de recuperación en una transacción . . . . . .  . . . . . . . . . . . . . . . . . . . . 392<br>
+        Liberar un punto de recuperación . . . . . . . . . . . . . .  . . . . . . . . . . . . . . . . . . . . 394<br>
+        Finalizar una transacción . . . . . . . . . . . . . . . . .  . . . . . . . . . . . . . . . . . . . . . . . . . . . . 395<br>
+        Completar una transacción . . . . . . . . . . . . . . . . .  . . . . . . . . . . . . . . . . . . . . . . 395<br>
+        Reinvertir una transacción . . . . . . . . . . . . . . . . .  . . . . . . . . . . . . . . . . . . . . . . 396<br>
+        x Contenido<br>
+        17 Acceder a datos  SQL desde un programa host . . . . . . . . . . . . . . . . . . . . . . 403<br>
+        Invocar SQL directamente . . . . . . . . . . . . . . . . . .  . . . . . . . . . . . . . . . . . . . . . . . . . 404<br>
+        Incrustar instrucciones SQL en el programa . . . . . . . . .  . . . . . . . . . . . . . . . . . . . . . 406<br>
+        Crear una instrucción SQL incrustada . . . . . . . . . . . .  . . . . . . . . . . . . . . . . . . 407<br>
+        Utilizar variables host en las instrucciones SQL . . . . . .  . . . . . . . . . . . . . . . . 408<br>
+        Recuperar datos SQL . . . . . . . . . . . . . . . . . . . .  . . . . . . . . . . . . . . . . . . . . . . . 411<br>
+        Manejo de errores . . . . . . . . . . . . . . . . . . . . .  . . . . . . . . . . . . . . . . . . . . . . . . . 413<br>
+        Crear módulos cliente de SQL . . . . . . . . . . . . . . . .  . . . . . . . . . . . . . . . . . . . . . . . . 417<br>
+        Definir módulos cliente de SQL . . . . . . . . . . . . . . .  . . . . . . . . . . . . . . . . . . . 418<br>
+        Utilizar una interfaz de nivel de llamada de SQL . . . . . .  . . . . . . . . . . . . . . . . . . . . 419<br>
+        Asignar indicadores . . . . . . . . . . . . . . . . . . . .  . . . . . . . . . . . . . . . . . . . . . . . . 421<br>
+        Ejecutar instrucciones SQL . . . . . . . . . . . . . . . . .  . . . . . . . . . . . . . . . . . . . . . 423<br>
+        Trabajar con variables host . . . . . . . . . . . . . . . .  . . . . . . . . . . . . . . . . . . . . . . 424<br>
+        Recuperar datos SQL . . . . . . . . . . . . . . . . . . . .  . . . . . . . . . . . . . . . . . . . . . . . 426<br>
+        18 Trabajar con datos  XML . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  . . 433<br>
+        Aprender los conceptos básicos de XML . . . . . . . . . . .  . . . . . . . . . . . . . . . . . . . . . 434<br>
+        Aprender acerca de SQL/XML . . . . . . . . . . . . . . . . .  . . . . . . . . . . . . . . . . . . . . . . . 437<br>
+        El tipo de datos XML . . . . . . . . . . . . . . . . . . . .  . . . . . . . . . . . . . . . . . . . . . . . 437<br>
+        Funciones SQL/XML . . . . . . . . . . . . . . . . . . . . .  . . . . . . . . . . . . . . . . . . . . . 439<br>
+        Reglas de trazado de SQL/XML. . . . . . . . . . . . . . . .  . . . . . . . . . . . . . . . . . . . 441<br>
+        Parte IV Apéndices<br>
+        A Respuestas a los  autoexámenes . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  . . 449<br>
+        B Palabras clave de  SQL:2006 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  . . 491<br>
+        Palabras clave reservadas de SQL . . . . . . . . . . . . . .  . . . . . . . . . . . . . . . . . . . . . . . . 492<br>
+        Palabras clave no reservadas de SQL . . . . . . . . . . . .  . . . . . . . . . . . . . . . . . . . . . . . 494<br>
+        C Código SQL  utilizado en los ejercicios Pruebe esto. . . . . . . . . . . . . . . . . . .  497<br>
+        Código SQL por cada ejercicio . . . . . . . . . . . . . . .  . . . . . . . . . . . . . . . . . . . . . . . . . 498<br>
+        La base de datos INVENTARIO . . . . . . . . . . . . . . . .  . . . . . . . . . . . . . . . . . . . . . . . 514</strong></p>
+       <div data-role="collapsible" data-content-theme="false">
+         <h1>¿Quieres este libro...?</h1>
+         <div>
+           <p><a href="https://www.amazon.com.mx/Programming-Microsoft-SQL-Server-2005/dp/0735619239" target="_self">Compralo aqui</a></p>
+           <p><a href="https://www.ugiss.org/2007/11/11/programmare-microsoft-sql-server-2005/" target="_self">Descargalo aqui</a></p>
+<br>
+         </div>
+         <div></div>
+       </div>
+     </div>
+  </div>
+   <div data-role="footer" data-theme="b" data-position="fixed">
+     <h4> Aplicacion Tres, LMA </h4>
+   </div>
+</div>
+
+<div data-role="page" id="Pagina10" data-add-back-btn="true" data-theme="b">
+   <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+   <h1> 10.Fundamentos de Redes </h1> 
+   </div>
+   <div data-role="content" align="center">
+     <div>
+       <h2><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image10','','imagenes/10contraportada.JPG',1)"><img src="imagenes/10portada.JPG" width="200" height="200" id="Image10"></a></h2>
+       <p><strong>Parte I. Fundamentos de la conectividad de  redes</strong></p>
+       <p><strong>1. El negocio de la conectividad<br>
+        2. Presentación de las bases<br>
+        3. La conectividad de redes<br>
+        4. Cableado de las redes<br>
+        5. Conectividad de redes domésticas<br>
+        6. Comprensión del hardware de las redes<br>
+        7. Conexiones entre WAN<br>
+        8. Protocolos de conectividad de redes<br>
+        9. Servicios de directorio<br>
+        10. Conexiones a larga distancia: acceso remoto a redes<br>
+        11. Asegurando su red<br>
+        12. Restablecimiento de los desastres de la red<br>
+        13. Servidores de red: todo lo que quería saber, pero temía  preguntar<br>
+        14. Compra y administración de computadoras cliente</strong></p>
+       <p><strong>Parte II. Conocimiento  por medio de la práctica</strong></p>
+       <p><strong>15. Diseño de una red<br>
+        16. Instalación y confi guración de Windows 2000 Server<br>
+        17. Administración de Windows 2000 Server: los fundamentos<br>
+        18. Otros servicios de Windows 2000 Server<br>
+        19. Windows Server 2003<br>
+        20. Instalación de Windows Server 2003<br>
+        21. Confi guración de Windows Server 2003<br>
+        22. Instalación de Linux con una confi guración de servidor<br>
+        23. Introducción a la administración de los sistemas Linux<br>
+        24. Confi guración de un servidor web Linux con Apache<br>
+        Glosario</strong></p>
+       <div data-role="collapsible" data-content-theme="false">
+         <h1>¿Quieres este libro...?</h1>
+         <div>
+           <p><a href="https://mx.casadellibro.com/libro-fundamentos-de-redes/9789701058961/1108282" target="_self">Compralo aqui</a></p>
+           <p><a href="https://www.fiuxy.co/ebooks-gratis/3443028-fundamentos-de-redes-4ta-edicion-bruce-hallberg.html" target="_self">Descargalo aqui</a></p>
+<br>
+         </div>
+         <div></div>
+       </div>
+     </div>
+  </div>
+   <div data-role="footer" data-theme="b" data-position="fixed">
+     <h4> Aplicacion Tres, LMA </h4>
+   </div>
+</div>
+
+<div data-role="page" id="Pagina11" data-add-back-btn="true" data-theme="b">
+   <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+   <h1> 11.Sistemas Operativos </h1> 
+   </div>
+   <div data-role="content" align="center">
+     <div>
+       <h2><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image11','','imagenes/11contraportada.JPG',1)"><img src="imagenes/11portada.JPG" width="200" height="200" id="Image11"></a></h2>
+       <p><strong>1. CONCEPTOS ARQUITECTÓNICOS DE LA COMPUTADORA... 1 <br>
+1.1. Estructura y funcionamiento de la computadora... 2<br>
+1.2. Modelo de programación de la computadora... 3<br>
+1.2.1. Niveles de ejecución... 4<br>
+1.2.2. Secuencia de funcionamiento de la computadora... 5<br>
+1.2.3. Registros de control y estado... 6<br>
+1.3. Interrupciones... 7<br>
+1.4. El reloj... 9<br>
+1.5. Jerarquía de memoria... 10<br>
+1.5.1. Migración de la información... 11<br>
+1.5.2. Parámetros característicos de la<br>
+ jerarquía de  memoria... 12<br>
+1.5.3. Coherencia... 12<br>
+1.5.4. Direccionamiento 12<br>
+1 .5.5. La proximidad referencial... 13<br>
+1.6. La memoria virtual.... 15<br>
+1.6.1. Concepto de memoria virtual... 16<br>
+1.6.2. La tabla de páginas... 18<br>
+1.6.3. Caso de varios programas activos... 22<br>
+1.6.4. Asignación de memoria principal y memoria virtual...  22<br>
+1.7. Entrada/salida... 23<br>
+1.7.1. Periféricos... 23<br>
+1.7.2. E/S y concurrencia... 25<br>
+1.7.3. E/S y memoria virtual... 27<br>
+1.8. Protección... 27<br>
+1.8.1. Mecanismos de protección del procesador... 27<br>
+1.8.2. Mecanismos de protección de memoria... 28<br>
+1.9. Multiprocesador y multicomputadora... 30<br>
+1.10. Puntos a recordar... 31<br>
+1.11. Lecturas recomendadas... 31<br>
+1.12. Ejercicios... 32<br>
+vi Contenido<br>
+Digitalización realizada con propósito académico<br>
+2. INTRODUCCIÓN A LOS  SISTEMAS OPERATIVOS... 33 <br>
+2.1. ¿Qué es un sistema operativo... 34<br>
+2.1.1. Máquina desnuda... 34<br>
+2.1.2. Funciones del sistema operativo... 34<br>
+2.1.3. Concepto de usuario y de grupo de usuarios... 37<br>
+2.2. Arranque de la computadora... 38<br>
+2.3. Componentes y estructura del sistema operativo... 41<br>
+2.3.1. Componentes del sistema operativo... 41<br>
+2.3.2. Estructura del sistema operativo... 42<br>
+2.4. Gestión de procesos... 44<br>
+2.4.1. Servicios de procesos... 45<br>
+2.5. Gestión de memoria... 46<br>
+2.5.1. Servicios... 47<br>
+2.6. Comunicación y sincronización entre procesos... 47<br>
+2.6.1. Servicios de comunicación y sincronización.. 48<br>
+2.7. Gestión de la E/S... 49<br>
+2.7.1. Servicios... 50<br>
+2.8. Gestión de archivos y directorios... 50<br>
+2.8.1. Servicio de archivos... 50<br>
+2.8.2. Servicio de directorios... 53<br>
+2.8.3. Sistema de archivos... 55<br>
+2.9. Seguridad y protección... 55<br>
+2.10. Activación del sistema operativo... 56<br>
+2.11. Interfaz del programador... 59<br>
+2.11.1. POSIX... 59<br>
+2.11.2. Win32... 60<br>
+2.12. Interfaz de usuario del sistema operativo... 61<br>
+2.12.1. Funciones de la interfaz de usuario... 62<br>
+2.12.2. Interfaces alfanuméricas... 63<br>
+2.12.3. Interfaces gráficas... 65<br>
+2.13. Historia de los sistemas operativos... 67<br>
+2.14. Puntos a recordar... 72<br>
+2.15. Lecturas recomendadas... 74<br>
+2.16. Ejercicios... 74<br>
+3. PROCESOS... 77 <br>
+3.1. Concepto de proceso... 78<br>
+3.2. Multitarea... 79<br>
+3.2.1. Base de la multitarea... 80<br>
+3.2.2. Ventajas de la multitarea... 82<br>
+3.2.3. Grado de multiprogramación y necesidades de memoria  principal... 82<br>
+3.3. Información del proceso... 84<br>
+3.3.1. Estado del procesador... 84<br>
+3.3.2. Imagen de memoria del proceso... 85<br>
+3.3.3. Información del BCP... 90<br>
+3.3.4. Tablas del sistema operativo... 91<br>
+3.4. Formación de un proceso.. 93<br>
+Contenido vii<br>
+Digitalización realizada con propósito académico<br>
+3.5. Estados del proceso... 93<br>
+3.5.1. Cambio de contexto... 95<br>
+3.6. Procesos ligeros... 98<br>
+3.6.1. Estados del proceso ligero... 99<br>
+3.6.2. Paralelismo... 100<br>
+3.6.3. Diseño con procesos ligeros... 101<br>
+3.7. Planificación... 102<br>
+3.7.1. Algoritmos de planificación... 105<br>
+3.7.2. Planificación en POSIX 107<br>
+3.7.3. Planificación en Windows NT/2000... 108<br>
+3.8. Señales y excepciones... 110<br>
+3.8.1. Señales... 110<br>
+3.8.2. Excepciones... 111<br>
+3.9. Temporizadores... 112<br>
+3.10. Servidores y demonios... 112<br>
+3.11. Servicios POSIX... 114<br>
+3.11.1. Servicios POSIX para la gestión de procesos... 114<br>
+3.11.2. Servicios POSIX de gestión de procesos ligeros...  131<br>
+3.11.3. Servicios POSIX para la planificación de procesos  136<br>
+3.11.4. Servicios POSIX para gestión de señales y  temporizadores 139<br>
+3.12. Servicios de W1N32 146<br>
+3.12.1. Servicios de Win32 para la gestión de procesos 146<br>
+3.12.2. Servicios de Win32 para la gestión de procesos  ligeros... 152<br>
+3.12.3. Servicios de planificación en Win32... 154<br>
+3.12.4. Servicios de Win32 para el manejo de excepciones...  155<br>
+3.12.5. Servicios de temporizadores... 157<br>
+3.13. Puntos a recordar... 159<br>
+3.14. Lecturas recomendadas... 160<br>
+3.15. Ejercicios... 160<br>
+4. GESTIÓN DE  MEMORIA... 163 <br>
+4.1. Objetivos del sistema de gestión de memoria... 164<br>
+4.2. Modelo de memoria de un proceso... 172<br>
+4.2.1. Fases en la generación de un ejecutable... 172<br>
+4.2.2. Mapa de memoria de un proceso... 178<br>
+4.2.3. Operaciones sobre regiones... 182<br>
+4.3. Esquemas de memoria basados en asignación contigua...  183<br>
+4.4. Intercambio... 186<br>
+4.5. Memoria virtual... 187<br>
+4.5.1. Paginación... 188<br>
+4.5.2. Segmentación... 197<br>
+4.5.3. Segmentación paginada... 198<br>
+4.5.4. Paginación por demanda... 199<br>
+4.5.5. Políticas de reemplazo... 201<br>
+4.5.6. Política de asignación de marcos de página... 204<br>
+4.5.7. Hiperpaginación... 205<br>
+4.5.8. Gestión del espacio de swap... 207<br>
+4.5.9. Operaciones sobre las regiones de un proceso... 208<br>
+viii Contenido<br>
+Digitalización realizada con propósito académico<br>
+4.6. Archivos proyectados en memoria... 210<br>
+4.7. Servicios de gestión de memoria... 212<br>
+4.7.1. Servicios genéricos de memoria... 212<br>
+4.7.2. Servicios de memoria de POSIX ... 212<br>
+4.7.3. Servicios de memoria de Win32... 216<br>
+4.8. Puntos a recordar... 219<br>
+4.9. Lecturas recomendadas... 220<br>
+4.10. Ejercicios... 221<br>
+5. COMUNICACIÓN Y  SINCRONIZACIÓN DE PROCESOS... 223 <br>
+5.1. Procesos concurrentes... 224<br>
+5.1.1. Tipos de procesos concurrentes... 225<br>
+5.2. Problemas clásicos de comunicación y sincronización...  226<br>
+5.2.1. El problema de la sección crítica... 226<br>
+5.2.2. Problema del productor-consumidor... 230<br>
+5.2.3. El problema de los lectores-escritores... 230<br>
+5.2.4. Comunicación cliente-servidor... 231<br>
+5.3. Mecanismos de comunicación y sincronización... 232<br>
+5.3.1. Comunicación mediante archivos... 232<br>
+5.3.2. Tuberías... 233<br>
+5.3.3. Sincronización mediante señales... 237<br>
+5.3.4. Semáforos... 237<br>
+5.3.5. Memoria compartida... 242<br>
+5.3.6. Mutex y variables condicionales... 243<br>
+5.4. Paso de mensajes... 248<br>
+5.5. Aspectos de implementación de los mecanismos de  sincronización... 253<br>
+5.5.1. Implementación de la espera pasiva... 254<br>
+5.6. Interbloqueos... 257<br>
+5.7. Servicios POSIX... 258<br>
+5.7.1. Tuberías... 258<br>
+5.7.2. Semáforos POSIX... 265<br>
+5.7.3. Mutex y variables condicionales en POSIX... 270<br>
+5.7.4. Colas de mensajes POSIX... 274<br>
+5.8. Servicios Wjn32... 285<br>
+5.8.1. Tuberías... 286<br>
+5.8.2. Secciones críticas... 294<br>
+5.8.3. Semáforos... 295<br>
+5.8.4. Mutex y eventos... 299<br>
+5.8.5. Mailslots... 303<br>
+5.9. Puntos a recordar... 305<br>
+5.10. Lecturas recomendadas... 306<br>
+5.11. Ejercicios... 306<br>
+6. INTERBLOQUEOS...  309 <br>
+6.1. Los interbloqueos: una historia basada en hechos  reales... 310<br>
+6.2. Los interbloqueos en un sistema informático... 311<br>
+6.2.1. Tipos de recursos... 311<br>
+Contenido ix<br>
+Digitalización realizada con propósito académico<br>
+6.3. Un modelo del sistema... 317<br>
+6.3.1. Representación mediante un grafo de asignación de  recursos... 318<br>
+6.3.2. Representación matricial... 322<br>
+6.4. Definición y caracterización del interbloqueo... 324<br>
+6.4.1. Condición necesaria y suficiente para el  interbloqueo... 325<br>
+6.5. Tratamiento del interbloqueo... 326<br>
+6.6. Detección y recuperación del interbloqueo... 327<br>
+6.6.1. Detección del interbloqueo... 328<br>
+6.6.2. Recuperación del interbloqueo... 334<br>
+6.7. Prevención del interbloqueo... 334<br>
+6.7.1. Exclusión mutua.. 335<br>
+6.7.2. Retención y espera... 336<br>
+6.7.3. Sin expropiación... 336<br>
+6.7.4. Espera circular... 337<br>
+6.8. Predicción del interbloqueo... 337<br>
+6.8.1. Concepto de estado seguro... 338<br>
+6.8.2. Algoritmos de predicción... 339<br>
+6.9. Tratamiento del interbloqueo en los sistemas  operativos... 345<br>
+6.10. Puntos a recordar... 347<br>
+6.11. Lecturas recomendadas... 349<br>
+6.12. Ejercicios... 349<br>
+7. ENTRADA/SALIDA...  351<br>
+7.1. Introducción... 352<br>
+7.2. Caracterización de los dispositivos de E/S... 354<br>
+7.2.1. Conexión de un dispositivo de E/S a una  computadora... 354<br>
+7.2.2. Dispositivos conectados por puertos o proyectados en  memoria... 355<br>
+7.2.3. Dispositivos de bloques y de caracteres... 356<br>
+7.2.4. E/S programada o por interrupciones... 357<br>
+7.2.5. Mecanismos de incremento de prestaciones... 361<br>
+7.3. Arquitectura del sistema de entrada/salida... 363<br>
+7.3.1. Estructura y componentes del sistema de E/S... 363<br>
+7.3.2. Software de E/S... 364<br>
+7.4. Interfaz de aplicaciones... 369<br>
+7.5. Almacenamiento secundario... 373<br>
+7.5.1. Discos... 374<br>
+7.5.2. El manejador de disco... 379<br>
+7.5.3. Discos en memoria... 384<br>
+7.5.4. Fiabilidad y tolerancia a fallos... 385<br>
+7.6. Almacenamiento terciario... 387<br>
+7.6.1. Tecnología para el almacenamiento terciario... 388<br>
+7.6.2. Estructura y componentes de un sistema de  almacenamiento terciario... 389<br>
+7.6.3. Estudio de caso: Sistema de almacenamiento de altas  prestaciones<br>
+(HPSS)... 391<br>
+7.7. El reloj... 393<br>
+7.7.1. El hardware del reloj... 393<br>
+7.7.2. El software del reloj... 394<br>
+x Contenido<br>
+Digitalización realizada con propósito académico<br>
+7.8. El terminal... 397<br>
+7.8.1. Modo de operación del terminal... 397<br>
+7.8.2. El hardware del terminal... 398<br>
+7.8.3. El software del terminal... 400<br>
+7.9. La red... 404<br>
+7.10. Servicios de entrada/salida... 405<br>
+7.10.1. Servicios genéricos de entrada/salida... 405<br>
+7.10.2. Servicios de entrada/salida en POSIX... 406<br>
+7.10.3. Servicios de entrada/salida en Win32... 410<br>
+7.11. Puntos a recordar... 414<br>
+7.12. Lecturas recomendadas... 416<br>
+7.13. Ejercicios... 417<br>
+8. GESTIÓN DE ARCHIVOS  Y DIRECTORIOS... 419 <br>
+8.1. Visión de usuario del sistema de archivos... 420<br>
+8.2. Archivos... 420<br>
+8.2.1. Concepto de archivo... 421<br>
+8.2.2. Nombres de archivos... 423<br>
+8.2.3. Estructura de un archivo... 424<br>
+8.2.4. Métodos de acceso... 427<br>
+8.2.5. Semánticas de coutilización... 428<br>
+8.3. Directorios... 429<br>
+8.3.1. Concepto de directorio... 429<br>
+8.3.2. Estructuras de directorio... 432<br>
+8.3.3. Nombres jerárquicos... 435<br>
+8.3.4. Construcción de la jerarquía de directorios... 437<br>
+8.4. Servicios de archivos y directorios... 438<br>
+8.4.1. Servicios genéricos para archivos... 439<br>
+8.4.2. Servicios POSIX para archivos 440<br>
+8.4.3. Ejemplo de uso de servicios POSIX para archivos...  443<br>
+8.4.4. Servicios Win32 para archivos... 445<br>
+8.4.5. Ejemplo de uso de servicios Win32 para archivos...  449<br>
+8.4.6. Servicios genéricos de directorios... 451<br>
+8.4.7. Servicios POSIX de directorios... 451<br>
+8.4.8. Ejemplo de uso de servicios POSIX para directorios...  454<br>
+8.4.9. Servicios Win32 para directorios... 456<br>
+8.4.10. Ejemplo de uso de servicios Win32 para  directorios... 458<br>
+8.5. Sistemas de archivos... 459<br>
+8.5.1. Estructura del sistema de archivos... 461<br>
+8.5.2. Otros tipos de sistemas de archivos... 465<br>
+8.6. El servidor de archivos... 468<br>
+8.6.1. Estructura del servidor de archivos... 469<br>
+8.6.2. Estructuras de datos asociadas con la gestión de  archivos... 472<br>
+8.6.3. Mecanismos de asignación y correspondencia de bloques  a<br>
+archivos... 474<br>
+8.6.4. Mecanismos de gestión de espacio libre... 477<br>
+8.6.5. Mecanismos de incremento de prestaciones... 479<br>
+8.6.6. Montado de sistemas de archivos e interpretación de  nombres... 483<br>
+Contenido xi<br>
+Digitalización realizada con propósito académico<br>
+8.6.7. Fiabilidad y recuperación... 485<br>
+8.6.8. Otros servicios... 489<br>
+8.7. Puntos a recordar... 491<br>
+8.8. Lecturas recomendadas... 493<br>
+9. SEGURIDAD Y  PROTECCIÓN 497 <br>
+9.1. Conceptos de seguridad y protección... 498<br>
+9.2. Problemas de seguridad... 499<br>
+9.2.1. Uso indebido o malicioso de programas... 500<br>
+9.2.2. Usuarios inexpertos o descuidados... 501<br>
+9.2.3. Usuarios no autorizados... 501<br>
+9.2.4. Virus... 502<br>
+9.2.5. Gusanos... 503<br>
+9.2.6. Rompedores de sistemas de protección... 504<br>
+9.2.7. Bombardeo... 504<br>
+9.3. Políticas de seguridad... 505<br>
+9.3.1. Política militar... 505<br>
+9.3.2. Políticas comerciales... 507<br>
+9.3.3. Modelos de seguridad... 508<br>
+9.4. Diseño de sistemas operativos seguros... 509<br>
+9.4.1. Principios de diseño y aspectos de seguridad... 509<br>
+9.4.2. Técnicas de diseño de sistemas seguros... 512<br>
+9.4.3. Controles de seguridad externos al sistema  operativo... 515<br>
+9.4.4. Controles de seguridad del sistema operativo 518<br>
+9.5. Criptografía... 519<br>
+9.5.1. Conceptos básicos... 519<br>
+9.5.2. Sistemas de clave privada y sistemas de clave  pública... 522<br>
+9.6. Clasificaciones de seguridad... 524<br>
+9.6.1. Clasificación del Departamento de Defensa (D0D) de  Estados<br>
+Unidos... 524<br>
+9.7. Seguridad y protección en sistemas operativos de  propósito general... 526<br>
+9.7.1. Autenticación de usuarios... 526<br>
+9.7.2. Palabras clave o contraseñas... 528<br>
+9.7.3. Dominios de protección... 531<br>
+9.7.4. Matrices de protección... 534<br>
+9.7.5. Listas de control de accesos... 535<br>
+9.7.6. Capacidades... 538<br>
+9.8. Servicios de protección y seguridad... 540<br>
+9.8.1. Servicios genéricos... 540<br>
+9.8.2. Servicios POSIX... 541<br>
+9.8.3. Ejemplo de uso de los servicios de protección de  POSIX... 543<br>
+9.8.4. Servicios de Win32... 545<br>
+9.8.5. Ejemplo de uso de los servicios de protección de  Win32... 548<br>
+9.9. El sistema de seguridad de Windows NT 550<br>
+9.10. Kerberos... 552<br>
+9.11. Puntos a recordar... 556<br>
+xii Contenido<br>
+Digitalización realizada con propósito académico<br>
+9.12. Lecturas recomendadas... 557<br>
+10. INTRODUCCIÓN A LOS  SISTEMAS DISTRIBUIDOS 561 <br>
+10.1. Sistemas distribuidos... 562<br>
+10.1.1. Características de un sistema distribuido... 562<br>
+10.1.2. Redes e interconexión... 563<br>
+10.1.3. Protocolos de comunicación... 564<br>
+10.2. Sistemas operativos distribuidos... 566<br>
+10.3. Comunicación de procesos en sistemas distribuidos...  570<br>
+10.3.1. Sockets... 570<br>
+10.3.2. Llamadas a procedimientos remotos... 582<br>
+10.3.3. Comunicación de grupos... 592<br>
+10.4. Sincronización de procesos en sistemas distribuidos...  593<br>
+10.4.1. Ordenación de eventos en sistemas distribuidos...  593<br>
+10.4.2. Exclusión mutua en sistemas distribuidos... 596<br>
+10.5. Gestión de procesos... 598<br>
+10.5.1. Asignación de procesos a procesadores... 598<br>
+10.5.2. Algoritmos de distribución de la carga... 599<br>
+10.5.3. Planificación de procesos en sistemas distribuidos...  601<br>
+10.6. Sistemas de archivos distribuidos... 601<br>
+10.6.1. Nombrado... 602<br>
+10.6.2. Métodos de acceso remotos... 603<br>
+10.6.3. Utilización de cache en sistemas de archivos  distribuidos... 604<br>
+10.7. Gestión de memoria en sistemas distribuidos... 606<br>
+10.8. Puntos a recordar... 607<br>
+10.9. Lecturas recomendadas... 609<br>
+11. ESTUDIO DE CASOS:  LINUX 611<br>
+11.1. Historia de LINUX... 612<br>
+11.2. Características y estructura de LINUX... 613<br>
+11.3. Gestión de procesos... 614<br>
+11.4. Gestión de memoria... 615<br>
+11.5. Entrada/salida... 616<br>
+11.6. Sistema de archivos... 616<br>
+11.7. Puntos a recordar... 617<br>
+11.8. Lecturas recomendadas... 617<br>
+12. ESTUDIO DE CASOS:  WINDOWS NT... 619 <br>
+12.1. Introducción... 620<br>
+12.2. Principios de diseño de Windows NT... 620<br>
+12.3. Arquitectura de Windows NT... 621<br>
+Contenido xiii<br>
+Digitalización realizada con propósito académico<br>
+12.4. El núcleo de Windows NT... 623<br>
+12.5. El ejecutivo de Windows NT... 624<br>
+12.5.1. Gestor de objetos... 624<br>
+12.5.2. Gestor de procesos.. 625<br>
+12.5.3. Gestor de memoria virtual... 627<br>
+12.5.4. Llamada a procedimiento local... 630<br>
+12.5.5. Gestor de entrada/salida... 631<br>
+12.6. Subsistemas de entorno de ejecución... 635<br>
+12.7. Sistemas de archivos de Windows NT... 636<br>
+12.7.1. Sistemas de archivos tipo FAT... 637<br>
+12.7.2. Sistemas de archivos de alto rendimiento (HPFS)  ...638<br>
+12.7.3. NTFS... 639<br>
+12.7.4. Comparación de los sistemas de archivos PAT, HPFS y  NTFS... 642<br>
+12.8. El subsistema de seguridad... 642<br>
+12.8.1. Autenticación de usuarios... 643<br>
+12.8.2. Listas de control de acceso en Windows NT... 645<br>
+12.9. Mecanismos para tolerancia a fallos en Windows NT...  646<br>
+12.10. Puntos a recordar... 648<br>
+12.11. Lecturas recomendadas... 649<br>
+A. Comparación de los servicios POSIX y Win32.. 651<br>
+B. Entorno de programación de sistemas operativos... 657<br>
+C. Trabajos prácticos de sistemas operativos... 669</strong></p>
+       <div data-role="collapsible" data-content-theme="false">
+         <h1>¿Quieres este libro...?</h1>
+         <div>
+           <p><a href="https://mx.casadellibro.com/libro-sistemas-operativos-2-ed/9788448156435/1138038" target="_self">Compralo aqui</a></p>
+           <p><a href="https://www.fiuxy.co/ebooks-gratis/3408592-sistemas-operativos-una-vision-aplicada-jesus-carretero-perez-pdf-ebook.html" target="_self">Descargalo aqui</a></p>
+           <br>
+         </div>
+         <div></div>
+       </div>
+     </div>
+  </div>
+   <div data-role="footer" data-theme="b" data-position="fixed">
+     <h4> Aplicacion Tres, LMA </h4>
+   </div>
+</div>
+
+
+</body>
+</html>
+
+
